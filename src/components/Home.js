@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import About from "./About";
 import Testimonial from "./Testimonial";
 import Services from "./Services";
@@ -11,8 +11,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <Banner/>
+      <Banner />
       <About />
+      <Services />
       <Athulya />
       <Testimonial />
     </div>

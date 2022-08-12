@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 import "./styles.css";
-import Heading from "./Heading";
+
 
 function Testimonial() {
   var settings = {
@@ -17,14 +17,17 @@ function Testimonial() {
   };
 
   return (
-    <div>
-      <div className="font-Poppins flex justify-center text-3xl font-semibold  mt-3">
-        <Heading title="Testimonial" />
+    <div className="md:pt-16  md:pb-16">
+      <div className="flex justify-center">
+        <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
+          <h1 className="md:mx-7 mx-0 text-xl underline-offset-3 decoration-4 underline decoration-pink-500">
+            Testimonial
+          </h1>
+          <div className="md:text-3xl  font-sans font-semibold mt-4 mb-4  md:px-0 text-xl ">
+            <h1 className="  md:text-3xl">Client Feedback</h1>
+          </div>
+        </div>
       </div>
-      <div className="flex justify-center text-xl font-semibold  mt-3">
-        <Heading title="Client Feedback" />
-      </div>
-
       <Slider {...settings}>
         <div className="">
           <div class="py-16 bg-sky-900  ">

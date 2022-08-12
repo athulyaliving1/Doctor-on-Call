@@ -8,7 +8,7 @@ function Header() {
   return (
     //mobile responsive
     <nav>
-      <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-zinc-100 shadow-md relative top-0 z-50">
+      <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-zinc-100 shadow-md fixed top-0 z-50">
         <div className="">
           <img
             className="xl:w-1/12 md:w-3/12 lg:w-2/12  w-5/12"

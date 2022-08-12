@@ -7,7 +7,7 @@ import Services from "./components/Services.js";
 import Athulya from "./components/Athulya.js";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
-import Header from "./components/Header.js";
+// import Header from "./components/Header.js";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
 
         <Routes>
           <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="athulya" element={<Athulya />} />
