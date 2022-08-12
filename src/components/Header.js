@@ -8,7 +8,7 @@ function Header() {
   return (
     //mobile responsive
     <nav>
-      <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-zinc-100 shadow-md fixed top-0 z-50">
+      <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-zinc-100 shadow-md sticky top-0 z-40">
         <div className="">
           <img
             className="xl:w-1/12 md:w-3/12 lg:w-2/12  w-5/12"
@@ -59,7 +59,7 @@ function Header() {
           className="bg-gray-800 opacity-50 w-full h-full"
           onClick={() => setShow(!show)}
         />
-        <div className="w-64 z-40 fixed overflow-y-auto   top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
+        <div className="w-64 z-40 fixed overflow-y-auto  mt-0  top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
           <div className="px-6 h-full">
             <div className="flex flex-col justify-between h-full w-full">
               <div>

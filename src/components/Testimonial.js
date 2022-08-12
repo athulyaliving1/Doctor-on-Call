@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./styles.css";
 
-
 function Testimonial() {
   var settings = {
     dots: true,
@@ -91,23 +90,6 @@ function Testimonial() {
                         </p>
                         <p className="text-right text-sky-800 font-Poppins px-10 font-semibold">
                           - indhu Sree
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
-                        <p class="font-Roboto   semi-bold text-xl px-5">
-                          Well maintained place for seniors. Nursing and
-                          personal care taker was good. They also organizing a
-                          wide range of activities and events engage the senior
-                          inhabitants. Very good hospitality.
-                        </p>
-                        <p className="text-right text-sky-800 font-Poppins px-10 font-semibold">
-                          - Swathi mira
                         </p>
                       </div>
                     </div>

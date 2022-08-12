@@ -3,9 +3,10 @@ import Header from "./Header";
 // import Navbar from "./Navbar";
 import About from "./About";
 import Testimonial from "./Testimonial";
-import Services from "./Services";
+// import Services from "./Services";
 import Athulya from "./Athulya";
 import Banner from "./Banner";
+import Test from "./Test";
 
 function Home() {
   return (
@@ -13,7 +14,8 @@ function Home() {
       <Header />
       <Banner />
       <About />
-      <Services />
+      <Test/>
+  
       <Athulya />
       <Testimonial />
     </div>

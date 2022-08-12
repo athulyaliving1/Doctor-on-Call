@@ -1,5 +1,4 @@
 import React from "react";
-import Naigation from "./Naigation";
 import care from "./Assets/care.png";
 
 export default function Navbar() {
@@ -60,7 +59,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <Naigation />
     </div>
   );
 }

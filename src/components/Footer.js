@@ -1,4 +1,3 @@
-
 import React from "react";
 
 function Footer() {
@@ -10,8 +9,8 @@ function Footer() {
       <div className="py-4 px-8  flex justify-center bg-zinc-50">
         <p className="md:text-lg text-sm  text-sky-900 font-semibold">
           Copyright © {new Date().getFullYear()}
-          <span className="text-pink-500"> Athulya Living.</span> All rights
-          reserved.
+          <span className="text-pink-500"> Athulya Senior care.</span> All
+          rights reserved.
         </p>
       </div>
       <div class="">

@@ -21,14 +21,14 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="mt-10">
         <div className="">
           <div class="grid md:gap-12 gap-6 md:grid-cols-4 grid-cols-2   pb-10 px-5 md:px-24">
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-gradient-to-r from-sky-900 shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center  px-7 md:px-24  py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
-                    <div className="flex justify-center">
+                    <div className="flex justify-center ">
                       <img
                         className="bg-pink-500 rounded-full"
                         src={icon1}
@@ -36,14 +36,14 @@ function Services() {
                       />
                     </div>
 
-                    <p className=" px-0   md:px-10 font-semibold">
+                    <p className=" px-0  text-white md:px-10 font-semibold md:text-2xl">
                       General medicine
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-gradient-to-r from-zinc-500 shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center   px-7 md:px-32  py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
@@ -60,7 +60,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-gradient-to-r from-pink-500 via-zinc-300 to-pink-500 shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center  px-7 md:px-32  py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
@@ -79,7 +79,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-gradient-to-r from-sky-900 to-zinc-500  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center   px-7 md:px-36  py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
@@ -96,7 +96,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-gradient-to-r from-sky-900 via-zinc-300 to-sky-900  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center  px-7 md:px-28  py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
@@ -115,7 +115,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl hover:shadow-2xl ">
+            <div class="p-1 rounded-xl group sm:flex space-x-6  bg-gradient-to-r from-pink-500 via-zinc-300 to-sky-800   shadow-xl hover:rounded-2xl hover:shadow-2xl ">
               <div class="text-center  px-7 md:px-28 py-10 justify-items-center">
                 <div class="space-y-2">
                   <div class="space-y-4">
