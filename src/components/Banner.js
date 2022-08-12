@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import des from "../components/Assets/banner.png";
+
 // import Heading from "./Heading";
 
 function Banner() {

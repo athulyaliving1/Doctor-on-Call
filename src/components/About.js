@@ -21,7 +21,7 @@ function About() {
           </div>
 
           <div className="container p-5 rounded-xl group sm:flex space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl  mt-8 mb-5">
-            <p className="text-justify  md:text-xl  ">
+            <p className="text-justify  md:text-xl font-semibold font-Poppins opacity-80 ">
               Elders frequently have one or more physical limitations that need
               them to rely on others for transportation. Often it remains to be
               a hindrance to attend their medical appointments on time. To be a
