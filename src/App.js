@@ -1,26 +1,26 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home.js';
-// import Add from './components/Add.js'
-// import Dashboard from './components/Dashboard.js';
-// import Edit from './components/Edit.js';
-import { loadProgressBar } from 'axios-progress-bar'
-import 'axios-progress-bar/dist/nprogress.css'
-
-loadProgressBar()
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home.js";
+import Navbar from "./components/Navbar.js";
+import About from "./components/About.js";
+import Services from "./components/Services.js";
+import Athulya from "./components/Athulya.js";
+import Testimonial from "./components/Testimonial.js";
+import Footer from "./components/Footer.js";
+import Header from "./components/Header.js";
 
 function App() {
   return (
     <>
-<BrowserRouter>
-      
+      <BrowserRouter>
+        <Navbar />
+
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="dashboard" element={<Dashboard/>}/>
-          <Route path="add" element={<Add />} />
-          <Route path="edit" element={<Edit />} /> */}
-
-          
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="athulya" element={<Athulya />} />
+          <Route path="testimonal" element={<Testimonial />} />
 
           <Route
             path="*"
@@ -31,9 +31,8 @@ function App() {
             }
           />
         </Routes>
-       
+        <Footer />
       </BrowserRouter>
-
     </>
   );
 }
