@@ -1,6 +1,6 @@
 import React from "react";
 // import Heading from "./Heading";
-import sample1 from "./Assets/sample1.jpg";
+import banner from "./Assets/banner2.png";
 
 function About() {
   return (
@@ -35,28 +35,9 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="container  grid  md:grid-cols-2 gap-5  ">
+        <div className="container  gap-5 mb-5  ">
           <div className=" ">
-            <div className="grid ">
-              <div>
-                <img
-                  className="  w-full h-64 rounded-2xl"
-                  src={sample1}
-                  alt="pic"
-                />
-              </div>
-            </div>
-            <div>
-              <img className="w-full h-64 rounded-xl" src={sample1} alt="pic" />
-            </div>
-          </div>
-          <div className=" ">
-            <div className="md:block hidden">
-              <img className="w-full h-64 rounded-xl" src={sample1} alt="pic" />
-            </div>
-            <div className="md:block hidden">
-              <img className="w-full h-64 rounded-xl" src={sample1} alt="pic" />
-            </div>
+            <img className="rounded-xl" src={banner} alt="care" />
           </div>
         </div>
       </div>

@@ -4,14 +4,13 @@ import care from "./Assets/care.png";
 export default function Navbar() {
   return (
     <div className="md:block hidden">
-      <div className="bg-zinc-100 w-screen  z-50 ">
+      <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl ">
         <div className="xl:px-40 px-9 flex items-center ">
           <img
             className="xl:w-1/12 md:w-3/12 lg:w-2/12  w-5/12  mt-2 "
             src={care}
             alt="logo"
           />
-
           <div class=" md:flex    font-semibold    md:ml-auto">
             <ul className="mt-5 lg:mt-5 md:flex  text-sky-900 font-Poppins     space-x-5 ">
               <li className="flex  mb-3 md:mb-0 md:px-0">

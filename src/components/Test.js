@@ -10,7 +10,7 @@ import icon8 from "./Assets/icon18.png";
 
 function Test() {
   return (
-    <div className="bg-zinc-200">
+    <div className="">
       <div className="">
         <div className="">
           <div className="flex justify-center  ">
@@ -18,7 +18,7 @@ function Test() {
           </div>
           <div className="xl:px-40 px-10  pb-10 ">
             <ul className=" xl:grid xl:grid-cols-4 space-y-5  md:gap-5  ">
-              <li className=" gap-5 rounded-2xl mt-5  shadow-2xl py-5 bg-white ">
+              <li className=" gap-5 rounded-2xl mt-5    ">
                 <div>
                   <li className="flex justify-center ">
                     <img
@@ -35,7 +35,7 @@ function Test() {
                 </div>
               </li>
 
-              <li className=" gap-5 rounded-2xl  shadow-2xl py-5 bg-white  ">
+              <li className=" gap-5 rounded-2xl    ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -51,7 +51,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5  rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5  rounded-2xl   ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -67,7 +67,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5  rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5  rounded-2xl  ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -83,7 +83,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5 rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5 rounded-2xl ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -99,7 +99,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5  rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5  rounded-2xl  ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -115,7 +115,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5 rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5 rounded-2xl   ">
                 <div>
                   <li className="flex justify-center">
                     <img
@@ -131,7 +131,7 @@ function Test() {
                   </li>
                 </div>
               </li>
-              <li className=" gap-5 rounded-2xl shadow-2xl py-5 bg-white ">
+              <li className=" gap-5 rounded-2xl ">
                 <div>
                   <li className="flex justify-center">
                     <img
