@@ -1,11 +1,17 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Avatar from "./Assets/Avatar.jpg";
 import Slider from "react-slick";
 import "./styles.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Testimonial() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   var settings = {
     dots: true,
     infinite: true,
@@ -30,9 +36,9 @@ function Testimonial() {
       <Slider {...settings}>
         <div className="">
           <div class="py-16 bg-sky-800  ">
-            <div class="container m-auto px-6  md:px-12 xl:px-6">
+            <div  data-aos="flip-up"  class="container m-auto px-6  md:px-12 xl:px-6">
               <div class="grid gap-12 md:grid-cols-2   grid-cols-1">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
                   <div class="text-center py-10 justify-items-center">
                     <div class="space-y-2">
                       <div class="space-y-4">
@@ -58,7 +64,7 @@ function Testimonial() {
                     </div>
                   </div>
                 </div>
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
                   <div class="text-center py-10 justify-items-center">
                     <div class="space-y-2">
                       <div class="space-y-4">
@@ -90,7 +96,7 @@ function Testimonial() {
           <div class="py-16 ">
             <div class="container m-auto px-6  md:px-12 xl:px-6">
               <div class="grid gap-12 md:grid-cols-2 ">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
                   <div class="text-center py-10 justify-items-center">
                     <div class="space-y-2">
                       <div class="space-y-4">

@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import Heading from "./Heading";
 import banner from "./Assets/banner2.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className=" bg-sky-800 md:pt-16  md:pb-16 ">
       <div className="grid md:grid-cols-2">
@@ -20,7 +26,10 @@ function About() {
             </div>
           </div>
 
-          <div className="container p-5 rounded-xl group sm:flex space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl  mt-8 mb-5">
+          <div
+            data-aos="fade-down"
+            className="container p-5 rounded-xl group sm:flex space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl  mt-8 mb-5"
+          >
             <p className="text-justify  md:text-xl font-semibold font-Poppins opacity-80 ">
               Elders frequently have one or more physical limitations that need
               them to rely on others for transportation. Often it remains to be
@@ -37,7 +46,12 @@ function About() {
         </div>
         <div className="container  gap-5 mb-5  ">
           <div className=" ">
-            <img className="rounded-xl" src={banner} alt="care" />
+            <img
+              data-aos="fade-down"
+              className="rounded-xl"
+              src={banner}
+              alt="care"
+            />
           </div>
         </div>
       </div>

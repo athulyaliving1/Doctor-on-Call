@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import icon1 from "./Assets/icon-1.png";
 import icon2 from "./Assets/icon-2.png";
 import icon3 from "./Assets/icon-3.png";
 import icon4 from "./Assets/icon-4.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Athulya() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
+
   return (
     <div>
       <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500   bg-gradient-to-r from-sky-800 to-pink-500   md:pt-16  md:pb-16">
@@ -19,7 +25,7 @@ function Athulya() {
           </div>
         </div>
         <div class="container m-auto px-6 md:px-12 xl:px-6">
-          <div class="grid gap-12 lg:grid-cols-3 pb-10">
+          <div data-aos="fade-up" class="grid gap-12 lg:grid-cols-3 pb-10">
             <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl hover:shadow-2xl md:hover:scale-110 md:transition md:duration-700  md:hover:rotate-6">
               <div class="text-center py-10 justify-items-center">
                 <div class="space-y-2">
