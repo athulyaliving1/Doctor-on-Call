@@ -36,7 +36,10 @@ function Testimonial() {
       <Slider {...settings}>
         <div className="">
           <div class="py-16 bg-sky-800  ">
-            <div  data-aos="flip-up"  class="container m-auto px-6  md:px-12 xl:px-6">
+            <div
+              data-aos="flip-up"
+              class="container m-auto px-6  md:px-12 xl:px-6"
+            >
               <div class="grid gap-12 md:grid-cols-2   grid-cols-1">
                 <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
                   <div class="text-center py-10 justify-items-center">
@@ -48,6 +51,22 @@ function Testimonial() {
                             src={Avatar}
                             alt="avatar"
                           />
+                        </div>
+                        <div>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+
+                          <ion-icon name="star-outline"></ion-icon>
                         </div>
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           My friends father staying in arumbakkam for past 6
@@ -74,6 +93,22 @@ function Testimonial() {
                             src={Avatar}
                             alt="avatar"
                           />
+                        </div>
+                        <div>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+
+                          <ion-icon name="star-outline"></ion-icon>
                         </div>
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           Well maintained place for seniors. Nursing and
@@ -106,6 +141,22 @@ function Testimonial() {
                             src={Avatar}
                             alt="avatar"
                           />
+                        </div>
+                        <div>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
+
+                          <ion-icon name="star-outline"></ion-icon>
                         </div>
                         <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           I have a relative of mine staying here for about 4

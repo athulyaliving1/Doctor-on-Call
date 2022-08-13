@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import mobile from "./Assets/sm-banner.png";
 
 // import Heading from "./Heading";
 
@@ -51,15 +52,18 @@ function Banner() {
   };
 
   return (
-    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0  ">
+    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0 ">
       <div
         class="
-		bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1660306970/banner3_fscsqp.png')]  h-full w-full bg-cover bg-center "
+		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1660306970/banner3_fscsqp.png')]  h-full w-full bg-cover bg-center "
       >
         <div className="grid md:grid-cols-2">
+          <div className="md:hidden block mt-10 md:mt-0">
+            <img src={mobile} alt="smpic" />
+          </div>
           <div className="">
             <div className="container text-justify mt-5 mb-5 ">
-              <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  text-white md:p-5 p-2  ">
+              <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
                 Our Doctor Visits At Home
               </h1>
               <div className="grid grid-flow-row  bg-zinc-300  rounded-2xl px-5 p-3 xl:block  font-Poppins">
