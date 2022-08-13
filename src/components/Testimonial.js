@@ -65,8 +65,11 @@ function Testimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
+                          
                         </div>
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           My friends father staying in arumbakkam for past 6
@@ -107,8 +110,10 @@ function Testimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
                         </div>
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           Well maintained place for seniors. Nursing and
@@ -155,8 +160,11 @@ function Testimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
+                         
                         </div>
                         <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           I have a relative of mine staying here for about 4

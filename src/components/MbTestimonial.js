@@ -55,8 +55,11 @@ function MbTestimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
+                        
                         </div>
 
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
@@ -106,8 +109,11 @@ function MbTestimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
+                         
                         </div>
                         <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           I have a relative of mine staying here for about 4
@@ -154,8 +160,11 @@ function MbTestimonial() {
                           <span className="text-yellow-500 ">
                             <ion-icon name="star"></ion-icon>
                           </span>
+                          <span className="text-yellow-500 ">
+                            <ion-icon name="star"></ion-icon>
+                          </span>
 
-                          <ion-icon name="star-outline"></ion-icon>
+                  
                         </div>
                         <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           Well maintained place for seniors.Nursing and personal
