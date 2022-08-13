@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 function Testimonial() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 3000 });
   }, []);
 
   var settings = {
