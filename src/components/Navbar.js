@@ -3,7 +3,7 @@ import care from "./Assets/care.png";
 
 export default function Navbar() {
   return (
-    <div className="md:block hidden">
+    <div className="">
       <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl ">
         <div className="xl:px-40 px-9 flex items-center ">
           <img

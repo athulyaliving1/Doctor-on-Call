@@ -5,7 +5,7 @@ import Avatar from "./Assets/Avatar.jpg";
 import Slider from "react-slick";
 import "./styles.css";
 
-function Testimonial() {
+function MbTestimonial() {
   var settings = {
     dots: true,
     infinite: true,
@@ -14,9 +14,8 @@ function Testimonial() {
     slidesToScroll: 1,
     arrows: true,
   };
-
   return (
-    <div className="md:pt-16  md:pb-16 md:block hidden">
+    <div className="md:pt-16  md:pb-16 block md:hidden ">
       <div className="flex justify-center">
         <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
           <h1 className="md:mx-7 mx-0 text-xl underline-offset-3 decoration-4 underline decoration-pink-500">
@@ -28,21 +27,22 @@ function Testimonial() {
         </div>
       </div>
       <Slider {...settings}>
-        <div className="">
-          <div class="py-16 bg-sky-800  ">
-            <div class="container m-auto px-6  md:px-12 xl:px-6">
-              <div class="grid gap-12 md:grid-cols-2   grid-cols-1">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
+        <div className="bg-sky-800 ">
+          <div class="py-16  ">
+            <div class="container m-auto px-6  md:px-12 xl:px-6 bg-sky-800">
+              <div class="grid gap-12 md:grid-cols-1">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100  shadow-xl hover:rounded-2xl">
+                  <div class="text-center py-10 mb-8 justify-items-center">
                     <div class="space-y-2">
                       <div class="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="rounded-full  w-1/3"
                             src={Avatar}
                             alt="avatar"
                           />
                         </div>
+
                         <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
                           My friends father staying in arumbakkam for past 6
                           months I visited the facility he is very happy and
@@ -58,30 +58,6 @@ function Testimonial() {
                     </div>
                   </div>
                 </div>
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
-                        <div className="flex justify-center">
-                          <img
-                            className="rounded-full  w-2/12"
-                            src={Avatar}
-                            alt="avatar"
-                          />
-                        </div>
-                        <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
-                          Well maintained place for seniors. Nursing and
-                          personal care taker was good. They also organizing a
-                          wide range of activities and events engage the senior
-                          inhabitants. Very good hospitality.
-                        </p>
-                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
-                          - Swathi mira
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -90,13 +66,13 @@ function Testimonial() {
           <div class="py-16 ">
             <div class="container m-auto px-6  md:px-12 xl:px-6">
               <div class="grid gap-12 md:grid-cols-2 ">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-white  shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
+                  <div class="text-center py-10 mb-20 justify-items-center">
                     <div class="space-y-2">
                       <div class="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="w-1/3 rounded-full "
                             src={Avatar}
                             alt="avatar"
                           />
@@ -118,9 +94,41 @@ function Testimonial() {
             </div>
           </div>
         </div>
+        <div className="bg-sky-800">
+          <div class="py-16 ">
+            <div class="container m-auto px-6  md:px-12 xl:px-6">
+              <div class="grid gap-12 md:grid-cols-2 ">
+                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
+                  <div class="text-center py-10 mb-24 justify-items-center">
+                    <div class="space-y-2">
+                      <div class="space-y-4">
+                        <div className="flex justify-center">
+                          <img
+                            className="w-1/3 rounded-full "
+                            src={Avatar}
+                            alt="avatar"
+                          />
+                        </div>
+                        <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
+                          Well maintained place for seniors.Nursing and personal
+                          care taker was good.They also organizingawide range of
+                          activities and events engage the senior
+                          inhabitants.Very good hospitality.
+                        </p>
+                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                          - Swathi mira
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </Slider>
     </div>
   );
 }
 
-export default Testimonial;
+export default MbTestimonial;

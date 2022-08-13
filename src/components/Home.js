@@ -1,23 +1,25 @@
 import React from "react";
-import Header from "./Header";
+// import Header from "./Header";
 // import Navbar from "./Navbar";
 import About from "./About";
 import Testimonial from "./Testimonial";
 // import Services from "./Services";
 import Athulya from "./Athulya";
 import Banner from "./Banner";
-import Test from "./Test";
+// import Test from "./Test";
+import Test1 from "./Test1";
+import MbTestimonial from "./MbTestimonial";
 
 function Home() {
   return (
     <div>
-      <Header />
       <Banner />
       <About />
-      <Test/>
-  
+      <Test1 />
+
       <Athulya />
       <Testimonial />
+      <MbTestimonial />
     </div>
   );
 }
