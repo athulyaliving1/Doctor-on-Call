@@ -16,7 +16,6 @@ function Home() {
       <Banner />
       <About />
       <Test1 />
-
       <Athulya />
       <Testimonial />
       <MbTestimonial />

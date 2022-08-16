@@ -55,7 +55,7 @@ function Banner() {
     <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0 ">
       <div
         class="
-		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1660306970/banner3_fscsqp.png')]  h-full w-full bg-cover bg-center "
+		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1660306970/banner3_fscsqp.png')]  h-full w-full bg-cover bg-no-repeat   "
       >
         <div className="grid md:grid-cols-2">
           <div className="md:hidden block mt-10 md:mt-0">
