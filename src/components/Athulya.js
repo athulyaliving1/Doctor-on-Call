@@ -17,7 +17,7 @@ function Athulya() {
         <div className="flex justify-center">
           <div className="font-Poppins text-3xl font-semibold  mt-3 text-white  md:text-black  ">
             
-            <div className="md:text-3xl  font-sans font-semibold mt-4 mb-4  px-6 text-xl ">
+            <div className="md:text-3xl  font-sans font-semibold mt-4 mb-10  px-6 text-xl ">
               <h1 className="  md:text-3xl">Why Athulya ?</h1>
             </div>
           </div>
