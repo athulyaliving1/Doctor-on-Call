@@ -16,7 +16,6 @@ function Athulya() {
       <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500   bg-gradient-to-r from-sky-800 to-pink-500   md:pt-16  md:pb-16">
         <div className="flex justify-center">
           <div className="font-Poppins text-3xl font-semibold  mt-3 text-white  md:text-black  ">
-            
             <div className="md:text-3xl  font-sans font-semibold mt-4 mb-10  px-6 text-xl ">
               <h1 className="  md:text-3xl">Why Athulya ?</h1>
             </div>
