@@ -1,5 +1,13 @@
 import React, { useEffect } from "react";
-import banner2 from "./Assets/banner2.png";
+import generalmedicine from "./Assets/1-01.jpg";
+import Dental from "./Assets/1-08.jpg";
+import Orthopaedics from "./Assets/1-06.jpg";
+import ENT from "./Assets/1-07.jpg";
+import Ophthalmology from "./Assets/1-05.jpg";
+import Neurology from "./Assets/1-04.jpg";
+import Diabetology from "./Assets/1-02.jpg";
+import Oncology from "./Assets/1-03.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -29,12 +37,12 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={generalmedicine}
                   alt="tailwind-card"
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white text-center font-Poppins md:text-xl">
                   General medicine
                 </h4>
               </div>
@@ -45,12 +53,12 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Dental}
                   alt="tailwind-card"
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Dental
                 </h4>
               </div>
@@ -61,7 +69,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Orthopaedics}
                   alt="tailwind-card"
                 />
               </div>
@@ -75,11 +83,7 @@ function Test1() {
           <div class="relative max-w-md mx-auto xl:max-w-xl min-w-0 break-words bg-gradient-to-r from-pink-500 to-pink-400 w-full mb-6 shadow-lg rounded-xl mt-16">
             <div class="card">
               <div class=" mx-4 -mt-6">
-                <img
-                  class=" w-full rounded-lg"
-                  src={banner2}
-                  alt="tailwind-card"
-                />
+                <img class=" w-full rounded-lg" src={ENT} alt="tailwind-card" />
               </div>
               <div class="p-5">
                 <h4 class="font-semibold text-white font-Poppins md:text-xl">
@@ -93,7 +97,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Ophthalmology}
                   alt="tailwind-card"
                 />
               </div>
@@ -109,7 +113,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Diabetology}
                   alt="tailwind-card"
                 />
               </div>
@@ -125,7 +129,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Neurology}
                   alt="tailwind-card"
                 />
               </div>
@@ -141,7 +145,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={banner2}
+                  src={Oncology}
                   alt="tailwind-card"
                 />
               </div>
