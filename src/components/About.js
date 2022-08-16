@@ -15,9 +15,7 @@ function About() {
         <div className="container ">
           <div className="container text-justify ">
             <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 ">
-              <h1 className="text-white  text-xl underline-offset-3 decoration-4 underline decoration-pink-500 ">
-                About
-              </h1>
+             
             </div>
             <div className="flex justify-center text-xl font-semibold  mt-3">
               <h1 className="text-white  md:text-3xl">

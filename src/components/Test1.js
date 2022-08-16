@@ -20,11 +20,8 @@ function Test1() {
       <div className="container m-auto px-6 md:px-12 xl:px-6 pt-10">
         <div className="flex justify-center">
           <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
-            <h1 className="md:mx-7 mx-0 text-xl underline-offset-3 decoration-4 underline decoration-pink-500">
-              Types Of Doctor Consultations
-            </h1>
             <div className="md:text-3xl  font-sans font-semibold mt-4 mb-4  md:px-0 text-xl ">
-              <h1 className="  md:text-3xl">Our doctor visits at home</h1>
+              <h1 className="  md:text-3xl">Our Doctor Visits At Home</h1>
             </div>
           </div>
         </div>
@@ -74,7 +71,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Orthopaedics
                 </h4>
               </div>
@@ -86,7 +83,7 @@ function Test1() {
                 <img class=" w-full rounded-lg" src={ENT} alt="tailwind-card" />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   ENT
                 </h4>
               </div>
@@ -102,7 +99,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Ophthalmology
                 </h4>
               </div>
@@ -118,7 +115,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Diabetology
                 </h4>
               </div>
@@ -134,7 +131,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Neurology
                 </h4>
               </div>
@@ -150,7 +147,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
                   Oncology
                 </h4>
               </div>
