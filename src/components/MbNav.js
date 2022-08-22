@@ -2,7 +2,7 @@ import React from "react";
 
 function MbNav() {
   return (
-    <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl hidden md:block  ">
+    <div className="bg-zinc-100 w-screen top-0 fixed z-50 shadow-xl block md:hidden ">
       <div className="grid grid-flow-col">
         <div className="px-5 ">
           <img

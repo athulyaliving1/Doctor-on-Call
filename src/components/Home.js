@@ -9,11 +9,13 @@ import Banner from "./Banner";
 // import Test from "./Test";
 import Test1 from "./Test1";
 import MbTestimonial from "./MbTestimonial";
+import MbBanner from "./MbBanner";
 
 function Home() {
   return (
     <div>
       <Banner />
+      <MbBanner/>
       <About />
       <Test1 />
       <Athulya />

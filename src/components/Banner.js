@@ -32,18 +32,13 @@ function Banner() {
     alert(result.status);
   };
   return (
-    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0  md:w-full w-fit  ">
+    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0 md:block hidden  ">
       <div
         class="
 		md:bg-[url('https://athulyahomecare.com/lp/images/banner.png')]  h-full w-full bg-cover bg-no-repeat   "
       >
         <div className="grid md:grid-cols-2">
-          <div className="md:hidden block mt-10 md:mt-0">
-            <img
-              src="https://athulyahomecare.com/lp/images/sm-banner.png"
-              alt="smpic"
-            />
-          </div>
+          <div className="md:hidden block mt-10 md:mt-0"></div>
           <div className="">
             <div className="container text-justify mt-5 mb-5 ">
               <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
