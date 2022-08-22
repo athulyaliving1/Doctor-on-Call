@@ -58,7 +58,7 @@ function MbBanner() {
                         type="text"
                         id="name"
                         name="user_name"
-                        class=" border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                        class=" border-slate-400  w-auto  mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                       />
                     </div>
                     <div class="flex flex-col mt-2 ">
@@ -73,7 +73,7 @@ function MbBanner() {
                         type="email"
                         id="email"
                         name="user_email"
-                        class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                        class="peer border border-slate-400  w-auto  mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                       />
                     </div>
                     <div class="flex flex-col mt-2 ">
@@ -102,7 +102,7 @@ function MbBanner() {
                         id="textarea"
                         cols="30"
                         rows="3"
-                        class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                        class="peer border  w-auto mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
                       ></textarea>
                     </div>
                     <div className="flex justify-center  md:py-1">
