@@ -12,7 +12,7 @@ function Header() {
         <div className="">
           <img
             className="xl:w-1/12 md:w-3/12 lg:w-2/12  w-5/12"
-            src={care}
+            src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />
         </div>

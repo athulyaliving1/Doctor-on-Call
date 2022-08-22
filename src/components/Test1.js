@@ -1,12 +1,5 @@
 import React, { useEffect } from "react";
-import generalmedicine from "./Assets/1-01.jpg";
-import Dental from "./Assets/1-08.jpg";
-import Orthopaedics from "./Assets/1-06.jpg";
-import ENT from "./Assets/1-07.jpg";
-import Ophthalmology from "./Assets/1-05.jpg";
-import Neurology from "./Assets/1-04.jpg";
-import Diabetology from "./Assets/1-02.jpg";
-import Oncology from "./Assets/1-03.jpg";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,7 +27,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={generalmedicine}
+                  src="https://athulyahomecare.com/lp/images/1-01.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -50,7 +43,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Dental}
+                  src="https://athulyahomecare.com/lp/images/1-08.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -66,7 +59,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Orthopaedics}
+                  src="https://athulyahomecare.com/lp/images/1-06.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -80,7 +73,7 @@ function Test1() {
           <div class="relative max-w-md mx-auto xl:max-w-xl min-w-0 break-words bg-gradient-to-r from-pink-500 to-pink-400 w-full mb-6 shadow-lg rounded-xl mt-16">
             <div class="card">
               <div class=" mx-4 -mt-6">
-                <img class=" w-full rounded-lg" src={ENT} alt="tailwind-card" />
+                <img class=" w-full rounded-lg" src="https://athulyahomecare.com/lp/images/1-07.jpg" alt="tailwind-card" />
               </div>
               <div class="p-5">
                 <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
@@ -94,7 +87,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Ophthalmology}
+                  src="https://athulyahomecare.com/lp/images/1-05.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -110,7 +103,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Diabetology}
+                  src="https://athulyahomecare.com/lp/images/1-02.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -126,7 +119,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Neurology}
+                  src="https://athulyahomecare.com/lp/images/1-04.jpg"
                   alt="tailwind-card"
                 />
               </div>
@@ -142,7 +135,7 @@ function Test1() {
               <div class=" mx-4 -mt-6">
                 <img
                   class=" w-full rounded-lg"
-                  src={Oncology}
+                  src="https://athulyahomecare.com/lp/images/1-03.jpg"
                   alt="tailwind-card"
                 />
               </div>

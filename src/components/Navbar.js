@@ -1,14 +1,13 @@
 import React from "react";
-import care from "./Assets/care.png";
 
 export default function Navbar() {
   return (
     <div className="">
-      <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl ">
+      <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl hidden md:block ">
         <div className="xl:px-40 px-9 flex items-center ">
           <img
             className="xl:w-1/12 md:w-3/12 lg:w-2/12  w-5/12  mt-2 "
-            src={care}
+            src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />
           <div class=" md:flex    font-semibold    md:ml-auto">

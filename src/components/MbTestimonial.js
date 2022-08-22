@@ -1,7 +1,7 @@
 import * as React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Avatar from "./Assets/Avatar.jpg";
+
 import Slider from "react-slick";
 import "./styles.css";
 
@@ -35,7 +35,7 @@ function MbTestimonial() {
                         <div className="flex justify-center">
                           <img
                             className="rounded-full  w-1/3"
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -85,7 +85,7 @@ function MbTestimonial() {
                         <div className="flex justify-center">
                           <img
                             className="w-1/3 rounded-full "
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -134,7 +134,7 @@ function MbTestimonial() {
                         <div className="flex justify-center">
                           <img
                             className="w-1/3 rounded-full "
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -183,7 +183,7 @@ function MbTestimonial() {
                         <div className="flex justify-center">
                           <img
                             className="w-1/3 rounded-full "
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>

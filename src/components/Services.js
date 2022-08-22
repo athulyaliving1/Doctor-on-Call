@@ -1,12 +1,4 @@
 import React from "react";
-import icon1 from "./Assets/icon11.png";
-import icon2 from "./Assets/icon12.png";
-import icon3 from "./Assets/icon13.png";
-import icon4 from "./Assets/icon14.png";
-import icon5 from "./Assets/icon15.png";
-import icon6 from "./Assets/icon16.png";
-import icon7 from "./Assets/icon17.png";
-import icon8 from "./Assets/icon18.png";
 
 function Services() {
   return (
@@ -31,7 +23,7 @@ function Services() {
                     <div className="flex justify-center ">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon1}
+                        src="https://athulyahomecare.com/lp/images/icon11.png"
                         alt="icon"
                       />
                     </div>
@@ -50,7 +42,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon2}
+                        src="https://athulyahomecare.com/lp/images/icon12.png"
                         alt="icon"
                       />
                     </div>
@@ -67,7 +59,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon3}
+                        src="https://athulyahomecare.com/lp/images/icon13.png"
                         alt="icon"
                       />
                     </div>
@@ -86,7 +78,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon4}
+                        src="https://athulyahomecare.com/lp/images/icon14.png"
                         alt="icon"
                       />
                     </div>
@@ -103,7 +95,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon5}
+                        src="https://athulyahomecare.com/lp/images/icon15.png"
                         alt="icon"
                       />
                     </div>
@@ -122,7 +114,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon6}
+                        src="https://athulyahomecare.com/lp/images/icon16.png"
                         alt="icon"
                       />
                     </div>
@@ -141,7 +133,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon7}
+                        src="https://athulyahomecare.com/lp/images/icon17.png"
                         alt="icon"
                       />
                     </div>
@@ -158,7 +150,7 @@ function Services() {
                     <div className="flex justify-center">
                       <img
                         className="bg-pink-500 rounded-full"
-                        src={icon8}
+                        src="https://athulyahomecare.com/lp/images/icon18.png"
                         alt="icon"
                       />
                     </div>

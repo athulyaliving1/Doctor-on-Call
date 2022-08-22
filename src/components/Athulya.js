@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
-import icon1 from "./Assets/icon-1.png";
-import icon2 from "./Assets/icon-2.png";
-import icon3 from "./Assets/icon-3.png";
-import icon4 from "./Assets/icon-4.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,7 +25,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon2} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-2.png"
+                        alt="icon"
+                      />
                     </div>
 
                     <p class="font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
@@ -48,7 +48,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon4} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-4.png"
+                        alt="icon"
+                      />
                     </div>
                     <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
                       Comprehensive Quality healthcare
@@ -66,7 +69,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon4} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-4.png"
+                        alt="icon"
+                      />
                     </div>
                     <p class=" font-Poppins xl:text-3xl   text-sky-800  font-semibold text-2xl px-5">
                       Expert geriatric specialists
@@ -84,7 +90,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon4} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-4.png"
+                        alt="icon"
+                      />
                     </div>
                     <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
                       Accessible and affordable at your convenience.
@@ -102,7 +111,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon3} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-3.png"
+                        alt="icon"
+                      />
                     </div>
                     <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
                       Emotional support for the elder & their family
@@ -120,7 +132,10 @@ function Athulya() {
                 <div class="space-y-2">
                   <div class="space-y-4">
                     <div className="flex justify-center">
-                      <img src={icon1} alt="icon" />
+                      <img
+                        src="https://athulyahomecare.com/lp/images/icon-1.png"
+                        alt="icon"
+                      />
                     </div>
                     <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
                       Personalized approach in medical care

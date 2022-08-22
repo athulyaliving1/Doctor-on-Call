@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import Heading from "./Heading";
-import banner from "./Assets/banner2.png";
+// import banner from "./Assets/banner2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,9 +14,7 @@ function About() {
       <div className="grid md:grid-cols-2">
         <div className="container ">
           <div className="container text-justify ">
-            <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 ">
-             
-            </div>
+            <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 "></div>
             <div className="flex justify-center text-xl font-semibold  mt-3">
               <h1 className="text-white  md:text-3xl">
                 Best Home Visit Doctors In Bangalore
@@ -47,7 +45,7 @@ function About() {
             <img
               data-aos="fade-down"
               className="rounded-xl"
-              src={banner}
+              src="https://athulyahomecare.com/lp/images/banner2.png"
               alt="care"
             />
           </div>

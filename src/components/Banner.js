@@ -1,65 +1,48 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
-import Swal from "sweetalert2";
-import mobile from "./Assets/sm-banner.png";
+import React, { useState } from "react";
 
 // import Heading from "./Heading";
 
 function Banner() {
-  const form = useRef();
+  const [status, setStatus] = useState("Submit");
 
-  const [name, setName] = useState(0);
-  const [email, setEmail] = useState(0);
-  const [number, setNumber] = useState(0);
-  const [message, setMessage] = useState(0);
-
-  const sendEmail = (e) => {
+  const formSubmit = async (e) => {
     e.preventDefault();
+    setStatus("Sending...");
 
-    emailjs
-      .sendForm(
-        "service_xipi3n7",
-        "template_uvl7ufv",
-        form.current,
-        "0NLux3QCNJGSnY4xF"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+    const { name, email, textarea, number } = e.target.elements;
+
+    let details = {
+      name: name.value,
+      email: email.value,
+      number: number.value,
+      textarea: textarea.value,
+    };
+    let response = await fetch(
+      "https://www.athulyahomecare.com/lp/doctor/email",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        body: JSON.stringify(details),
+      }
+    );
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
   };
-  const shoot = () => {
-    if (!name || !email || !number || !message) {
-      return Swal.fire({
-        icon: "error",
-        title: "Error!",
-        text: "All fields are required.",
-        showConfirmButton: true,
-      });
-    }
-
-    Swal.fire({
-      icon: "success",
-      title: "Your message has been send !!!",
-      text: " Kindly wait our team contact you shortly.",
-      showConfirmButton: false,
-      timer: 3000,
-    });
-  };
-
   return (
     <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0 ">
       <div
         class="
-		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1660306970/banner3_fscsqp.png')]  h-full w-full bg-cover bg-no-repeat   "
+		md:bg-[url('https://athulyahomecare.com/lp/images/banner.png')]  h-full w-full bg-cover bg-no-repeat   "
       >
         <div className="grid md:grid-cols-2">
           <div className="md:hidden block mt-10 md:mt-0">
-            <img src={mobile} alt="smpic" />
+            <img
+              src="https://athulyahomecare.com/lp/images/sm-banner.png"
+              alt="smpic"
+            />
           </div>
           <div className="">
             <div className="container text-justify mt-5 mb-5 ">
@@ -68,93 +51,72 @@ function Banner() {
               </h1>
               <div className="grid grid-flow-row  bg-zinc-300  rounded-2xl px-5 p-3 xl:block  font-Poppins">
                 <div>
-                  <form ref={form} onSubmit={sendEmail}>
+                  <form onSubmit={formSubmit}>
                     <div className="">
                       <div class="flex flex-col">
                         <label
                           className="text-sky-800  text-xl font-semibold"
-                          for="name"
+                          htmlFor="name"
                         >
                           Name
                         </label>
                         <input
-                          onChange={(event) => setName(event.target.value)}
                           type="text"
-                          name="user_name"
                           id="name"
-                          required
-                          class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none required"
+                          name="user_name"
+                          class=" border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                         />
-
-                        <p class="invisible peer-invalid:visible text-pink-700 font-medium">
-                          Please enter your name
-                        </p>
                       </div>
                       <div class="flex flex-col mt-2 ">
-                        <label className="text-sky-800  text-xl font-semibold">
+                        <label
+                          htmlFor="email"
+                          className="text-sky-800  text-xl font-semibold"
+                        >
                           Email
                         </label>
 
                         <input
-                          onChange={(event) => setEmail(event.target.value)}
                           type="email"
-                          name="user_email"
                           id="email"
-                          required
-                          class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none required"
+                          name="user_email"
+                          class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                         />
-                        <p class="invisible peer-invalid:visible text-red-700 font-light">
-                          Please enter a valid email address
-                        </p>
                       </div>
                       <div class="flex flex-col mt-2 ">
                         <label
                           className="text-sky-800  text-xl font-semibold"
-                          for="number"
+                          htmlFor="fnumber"
                         >
                           Number
                         </label>
                         <input
-                          onChange={(event) => setNumber(event.target.value)}
-                          maxLength="10"
                           id="number"
                           type="number"
-                          name="user_number"
-                          required
-                          class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none required"
+                          name="fnumber"
+                          class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
                         />
-                        <p class="invisible peer-invalid:visible text-red-700 font-light">
-                          Please enter a vaild Mobile Number
-                        </p>
                       </div>
                       <div class="flex flex-col mt-2">
                         <label
                           className="text-sky-800  text-xl font-semibold"
-                          for="message"
+                          htmlFor="textarea"
                         >
                           Message
                         </label>
                         <textarea
-                          onChange={(event) => setMessage(event.target.value)}
-                          name="user_message"
-                          id="message"
+                          name="message"
+                          id="textarea"
                           cols="30"
                           rows="3"
-                          required
-                          class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none required"
+                          class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
                         ></textarea>
-                        <p class="invisible peer-invalid:visible text-red-700 font-light">
-                          This field cannot be empty
-                        </p>
                       </div>
                       <div className="flex justify-center  md:py-1">
                         <button
-                          onClick={shoot}
                           type="submit"
-                          value="Send"
                           class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
                         >
-                          Submit
+                          {status}
                         </button>
                       </div>
                     </div>

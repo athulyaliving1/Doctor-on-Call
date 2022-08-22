@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Avatar from "./Assets/Avatar.jpg";
 import Slider from "react-slick";
 import "./styles.css";
 import AOS from "aos";
@@ -46,7 +45,7 @@ function Testimonial() {
                         <div className="flex justify-center">
                           <img
                             className="rounded-full  w-2/12"
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -87,7 +86,7 @@ function Testimonial() {
                         <div className="flex justify-center">
                           <img
                             className="rounded-full  w-2/12"
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -136,7 +135,7 @@ function Testimonial() {
                         <div className="flex justify-center">
                           <img
                             className="rounded-full  w-2/12"
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>
@@ -177,7 +176,7 @@ function Testimonial() {
                         <div className="flex justify-center">
                           <img
                             className="rounded-full  w-2/12"
-                            src={Avatar}
+                            src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
                         </div>

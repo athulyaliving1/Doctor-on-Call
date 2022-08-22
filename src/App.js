@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
@@ -7,13 +7,15 @@ import Services from "./components/Services.js";
 import Athulya from "./components/Athulya.js";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
+import MbNav from "./components/MbNav.js";
 // import Header from "./components/Header.js";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
+      <HashRouter>
+        <Navbar/>
+      <MbNav/>
 
         <Routes>
           <Route index element={<Home />} />
@@ -33,7 +35,7 @@ function App() {
           />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
