@@ -7,7 +7,7 @@ import Services from "./components/Services.js";
 import Athulya from "./components/Athulya.js";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
-import MbNav from "./components/MbNav.js";
+// import MbNav from "./components/MbNav.js";
 // import Header from "./components/Header.js";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <>
       <HashRouter>
         <Navbar/>
-      <MbNav/>
+      {/* <MbNav/> */}
 
         <Routes>
           <Route index element={<Home />} />
