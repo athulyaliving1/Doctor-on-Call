@@ -32,7 +32,7 @@ function Banner() {
     alert(result.status);
   };
   return (
-    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0  w-full">
+    <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0  md:w-full w-fit  ">
       <div
         class="
 		md:bg-[url('https://athulyahomecare.com/lp/images/banner.png')]  h-full w-full bg-cover bg-no-repeat   "
