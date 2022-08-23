@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Swal from "sweetalert2";
 // import Heading from "./Heading";
 
 function Banner() {
@@ -18,7 +18,7 @@ function Banner() {
       textarea: textarea.value,
     };
     let response = await fetch(
-      "https://www.athulyahomecare.com/lp/doctor/email",
+      "https://contact-app-server-athulya.herokuapp.com/contact",
       {
         method: "POST",
         headers: {
@@ -29,7 +29,27 @@ function Banner() {
     );
     setStatus("Submit");
     let result = await response.json();
-    alert(result.status);
+
+    if (result.status === "ERROR")
+      Swal.fire({
+        title: "Error!",
+        text: "Something Went Wrong!!!",
+        icon: "error",
+        confirmButtonText: false,
+      });
+    else {
+      Swal.fire({
+        icon: "success",
+        title: "Our Message Has Been Sent!",
+        text: "Our Team Will Contact You Shortly  ",
+        showConfirmButton: false,
+        timer: 2000,
+      });
+    }
+
+    setTimeout(function () {
+      window.location.reload(1);
+    }, 2000);
   };
   return (
     <div className=" bg-zinc-100 pt-5 md:pt-16 md:mt-0 md:block hidden  ">
