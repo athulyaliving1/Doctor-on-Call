@@ -126,73 +126,74 @@ function Banner() {
                                 {errors.name}
                               </p>
                             ) : null}
-                          </div>
-                          <div class="flex flex-col mt-2 ">
-                            <label
-                              htmlFor="email"
-                              className="text-sky-800  text-xl font-semibold"
-                            >
-                              Email
-                            </label>
 
-                            <Field
-                              type="email"
-                              id="email"
-                              name="email"
-                              class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
-                            />
-                            {errors.email && touched.email ? (
-                              <p className="text-pink-500 font-Poppins font-semibold">
-                                {errors.email}
-                              </p>
-                            ) : null}
-                          </div>
-                          <div class="flex flex-col mt-2 ">
-                            <label
-                              className="text-sky-800  text-xl font-semibold"
-                              htmlFor="number"
-                            >
-                              Number
-                            </label>
-                            <Field
-                              id="number"
-                              type="number"
-                              name="number"
-                              class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
-                            />
-                            {errors.number && touched.number ? (
-                              <p className="text-pink-500 font-Poppins font-semibold">
-                                {errors.number}
-                              </p>
-                            ) : null}
-                          </div>
-                          <div class="flex flex-col mt-2">
-                            <label
-                              className="text-sky-800  text-xl font-semibold"
-                              htmlFor="textarea"
-                            >
-                              Message
-                            </label>
-                            <Field
-                              name="textarea"
-                              id="textarea"
-                              cols="30"
-                              rows="3"
-                              class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
-                            ></Field>
-                            {errors.textarea && touched.textarea ? (
-                              <p className="text-pink-500 font-Poppins font-semibold">
-                                {errors.textarea}
-                              </p>
-                            ) : null}
-                          </div>
-                          <div className="flex justify-center  md:py-1">
-                            <button
-                              type="submit"
-                              class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
-                            >
-                              {status}
-                            </button>
+                            <div class="flex flex-col mt-2 ">
+                              <label
+                                htmlFor="email"
+                                className="text-sky-800  text-xl font-semibold"
+                              >
+                                Email
+                              </label>
+
+                              <Field
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                              />
+                              {errors.email && touched.email ? (
+                                <p className="text-pink-500 font-Poppins font-semibold">
+                                  {errors.email}
+                                </p>
+                              ) : null}
+                            </div>
+                            <div class="flex flex-col mt-2 ">
+                              <label
+                                className="text-sky-800  text-xl font-semibold"
+                                htmlFor="number"
+                              >
+                                Number
+                              </label>
+                              <Field
+                                id="number"
+                                type="number"
+                                name="number"
+                                class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                              />
+                              {errors.number && touched.number ? (
+                                <p className="text-pink-500 font-Poppins font-semibold">
+                                  {errors.number}
+                                </p>
+                              ) : null}
+                            </div>
+                            <div class="flex flex-col mt-2">
+                              <label
+                                className="text-sky-800  text-xl font-semibold"
+                                htmlFor="textarea"
+                              >
+                                Message
+                              </label>
+                              <Field
+                                name="textarea"
+                                id="textarea"
+                                cols="30"
+                                rows="3"
+                                class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                              ></Field>
+                              {errors.textarea && touched.textarea ? (
+                                <p className="text-pink-500 font-Poppins font-semibold">
+                                  {errors.textarea}
+                                </p>
+                              ) : null}
+                            </div>
+                            <div className="flex justify-center  md:py-1">
+                              <button
+                                type="submit"
+                                class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
+                              >
+                                {status}
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </Form>
