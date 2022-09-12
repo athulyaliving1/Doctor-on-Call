@@ -45,7 +45,7 @@ function Banner() {
       textarea: textarea.value,
     };
     let response = await fetch(
-      "https://contact-app-server-athulya.herokuapp.com/contact",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
       {
         method: "POST",
         headers: {
@@ -86,7 +86,7 @@ function Banner() {
       >
         <div className="grid md:grid-cols-2">
           <div className="">
-            <div className="container text-justify mt-5 mb-5 ">
+            <div className="container text-justify mt-5 mb-5 md:py-28 ">
               <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
                 Our Doctor Visits At Home
               </h1>
@@ -155,7 +155,6 @@ function Banner() {
                               Number
                             </label>
                             <Field
-                            
                               id="number"
                               type="number"
                               name="number"

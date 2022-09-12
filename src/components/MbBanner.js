@@ -44,7 +44,7 @@ function MbBanner() {
       textarea: textarea.value,
     };
     let response = await fetch(
-      "https://contact-app-server-athulya.herokuapp.com/contact",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
       {
         method: "POST",
         headers: {

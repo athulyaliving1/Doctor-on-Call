@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import care from "./Assets/care.png";
+// import care from "./Assets/care.png";
 
 function Header() {
   const [show, setShow] = useState(false);
