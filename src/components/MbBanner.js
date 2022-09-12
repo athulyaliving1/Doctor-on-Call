@@ -44,7 +44,7 @@ function MbBanner() {
       textarea: textarea.value,
     };
     let response = await fetch(
-      "http://162.241.222.86:5000/contactdoctoroncallbangalore",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
       {
         method: "POST",
         headers: {
@@ -82,12 +82,12 @@ function MbBanner() {
       <div className=" md:grid-cols-2 block md:hidden">
         <div className="md:hidden block mt-10 md:mt-0">
           <img
-               src="https://athulyahomecare.com/lp/images/sm-banner.png"
+            src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
           />
         </div>
-        <div className="">
-          <div className="container text-justify mt-5 mb-5 ">
+        <div className="container">
+          <div className=" text-justify mt-5 mb-5 ">
             <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
               Submit Your Details
             </h1>
