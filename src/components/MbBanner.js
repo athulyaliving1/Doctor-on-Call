@@ -44,7 +44,7 @@ function MbBanner() {
       textarea: textarea.value,
     };
     let response = await fetch(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
+      "http://162.241.222.86:5000/contactdoctoroncallbangalore",
       {
         method: "POST",
         headers: {
@@ -82,16 +82,16 @@ function MbBanner() {
       <div className=" md:grid-cols-2 block md:hidden">
         <div className="md:hidden block mt-10 md:mt-0">
           <img
-            src="https://athulyahomecare.com/lp/images/sm-banner.png"
+               src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
           />
         </div>
         <div className="">
           <div className="container text-justify mt-5 mb-5 ">
             <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
-              Our Doctor Visits At Home
+              Submit Your Details
             </h1>
-            <div className="grid grid-flow-row  bg-zinc-300  rounded-2xl px-5 p-3 xl:block  font-Poppins">
+            <div className="grid grid-flow-row  bg-zinc-100  rounded-2xl px-5 p-3 xl:block  font-Poppins">
               <div>
                 <Formik
                   initialValues={{
@@ -109,67 +109,72 @@ function MbBanner() {
                   {({ errors, touched }) => (
                     <Form onSubmit={formSubmit}>
                       <div className="">
-                        <div class="flex flex-col">
-                          <label
-                            className="text-sky-800  text-xl font-semibold"
-                            htmlFor="name"
-                          >
-                            Name
-                          </label>
+                        <div class="relative z-0 mb-6 w-full group">
                           <Field
-                            type="text"
-                            id="name"
+                            type="name"
                             name="name"
-                            class=" peer border border-slate-400  w-auto  mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-non"
+                            id="floating_name"
+                            class="block py-2.5 px-0 w-full text-xl font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                            placeholder=" "
+                            required
                           />
                           {errors.name && touched.name ? (
                             <p className="text-pink-500 font-Poppins font-semibold">
                               {errors.name}
                             </p>
                           ) : null}
-                        </div>
-                        <div class="flex flex-col mt-2 ">
                           <label
-                            htmlFor="email"
-                            className="text-sky-800  text-xl font-semibold"
+                            for="floating_name"
+                            class="peer-focus:font-semibold  text-lg font-Robot font-semibold   absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                           >
-                            Email
+                            Full Name
                           </label>
-
+                        </div>
+                        <div class="relative z-0 mb-6 w-full group">
                           <Field
                             type="email"
-                            id="email"
                             name="email"
-                            class="peer border border-slate-400  w-auto  mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                            id="floating_email"
+                            class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                            placeholder=" "
+                            required
                           />
                           {errors.email && touched.email ? (
                             <p className="text-pink-500 font-Poppins font-semibold">
                               {errors.email}
                             </p>
                           ) : null}
-                        </div>
-                        <div class="flex flex-col mt-2 ">
                           <label
-                            className="text-sky-800  text-xl font-semibold"
-                            htmlFor="fnumber"
+                            for="floating_email"
+                            class="peer-focus:font-semibold   text-lg font-Robot font-semibold    absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                           >
-                            Number
+                            Email address
                           </label>
+                        </div>
+                        <div class="relative z-0 mb-6 w-full group">
                           <Field
-                            id="number"
                             type="number"
                             name="number"
-                            class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                            id="floating_number"
+                            class="block py-2.5 px-0 w-full  text-lg font-Robot  font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                            placeholder=" "
+                            required
                           />
                           {errors.number && touched.number ? (
                             <p className="text-pink-500 font-Poppins font-semibold">
                               {errors.number}
                             </p>
                           ) : null}
+                          <label
+                            for="floating_number"
+                            class="peer-focus:font-semibold   text-lg font-Robot  font-semibold  absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                          >
+                            Mobile Number
+                          </label>
                         </div>
                         <div class="flex flex-col mt-2">
                           <label
-                            className="text-sky-800  text-xl font-semibold"
+                            className="text-sky-800  text-lg font-semibold"
                             htmlFor="textarea"
                           >
                             Message
@@ -177,10 +182,9 @@ function MbBanner() {
                           <Field
                             name="textarea"
                             id="textarea"
-                            cols="30"
-                            rows="3"
-                            class="peer border  w-auto mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
-                          ></Field>
+                            rows="4"
+                            class="peer   w-100 mt-2 py-3 px-3 rounded-lg bg-zinc-100  border-2   border-sky-800   font-semibold focus:border-sky-700 focus:outline-none"
+                          />
                           {errors.textarea && touched.textarea ? (
                             <p className="text-pink-500 font-Poppins font-semibold">
                               {errors.textarea}
@@ -188,11 +192,11 @@ function MbBanner() {
                           ) : null}
                         </div>
                         <div className="flex justify-center  md:py-1">
-                          <button
-                            type="submit"
-                            class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
-                          >
-                            {status}
+                          <button class="  rounded-md py-3 px-6 m-1 overflow-hidden relative group cursor-pointer border-2  border-sky-800  text-white bg-pink-500 font-bold">
+                            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-sky-900 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                            <span class="relative  text-white transition duration-300 group-hover:text-white ease">
+                              {status}
+                            </span>
                           </button>
                         </div>
                       </div>
