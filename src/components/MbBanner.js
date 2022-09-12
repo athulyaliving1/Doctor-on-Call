@@ -108,7 +108,7 @@ function MbBanner() {
                 >
                   {({ errors, touched }) => (
                     <Form onSubmit={formSubmit}>
-                      <div className="">
+                      <div className="px-5">
                         <div class="relative z-0 mb-6 w-full group">
                           <Field
                             type="name"
