@@ -108,18 +108,17 @@ function MbBanner() {
                         <input
                           {...register("name")}
                           onChange={(e) => setName(e.target.value)}
-                          type="name"
+                          type="text"
                           name="name"
-                          id="floating_name"
+                          id="name"
                           class="block py-2.5 px-0 w-full text-xl font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
-                          required
                         />
                         <p className="text-pink-500 font-Poppins font-semibold">
                           {errors.name?.message}
                         </p>
                         <label
-                          for="floating_name"
+                          for="name"
                           class="peer-focus:font-semibold  text-lg font-Robot font-semibold   absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Full Name
@@ -131,10 +130,9 @@ function MbBanner() {
                           type="email"
                           name="email"
                           onChange={(e) => setEmail(e.target.value)}
-                          id="floating_email"
+                          id="email"
                           class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
-                          required
                         />
                         <p className="text-pink-500 font-Poppins font-semibold">
                           {errors.email?.message}
@@ -152,14 +150,15 @@ function MbBanner() {
                           onChange={(e) => setNumber(e.target.value)}
                           type="number"
                           name="number"
-                          id="floating_number"
+                          id="number"
                           class="block py-2.5 px-0 w-full  text-lg font-Robot  font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
-                          required
                         />
-
+                        <p className="text-pink-500 font-Poppins font-semibold">
+                          {errors.number?.message}
+                        </p>
                         <label
-                          for="floating_number"
+                          for="number"
                           class="peer-focus:font-semibold   text-lg font-Robot  font-semibold  absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Mobile Number
@@ -180,6 +179,9 @@ function MbBanner() {
                           rows="4"
                           class="peer   w-100 mt-2 py-3 px-3 rounded-lg bg-zinc-100  border-2   border-sky-800   font-semibold focus:border-sky-700 focus:outline-none"
                         />
+                        <p className="text-pink-500 font-Poppins font-semibold">
+                          {errors.textarea?.message}
+                        </p>
                       </div>
                       <div className="flex justify-center  md:py-1">
                         <button class="  rounded-md py-3 px-6 m-1 overflow-hidden relative group cursor-pointer border-2  border-sky-800  text-white bg-pink-500 font-bold">

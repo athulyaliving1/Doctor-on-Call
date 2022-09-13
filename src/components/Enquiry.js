@@ -10,7 +10,7 @@ const phoneRegExp =
 
 const schema = yup
   .object({
-    name: yup.string().required().min(5).max(15),
+    name: yup.string().required().min(3).max(15),
     email: yup
       .string()
       .email("That doesn't look like a valid email")
