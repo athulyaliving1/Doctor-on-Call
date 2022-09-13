@@ -25,7 +25,7 @@ function AboutAthulya() {
         >
           <div
             data-aos="fade-down"
-            className=" p-5 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl grid lg:place-content-center  "
+            className=" p-5 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl grid lg:place-content-center 2xl:h-5/6    "
           >
             <div className="text-justify  md:text-xl font-semibold font-Poppins opacity-80 grid ">
               Elders frequently have one or more physical limitations that need
@@ -43,10 +43,10 @@ function AboutAthulya() {
           </div>
           <div
             data-aos="fade-down"
-            className="p-3 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl  "
+            className="p-3 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl 2xl:h-5/6  "
           >
             <img
-              className="rounded-xl h-full w-full   md:object-cover "
+              className="rounded-xl h-full w-full object-cover "
               src="https://athulyahomecare.com/lp/images/banner2.png "
               alt="care"
             />
