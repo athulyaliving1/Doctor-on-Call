@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <HashRouter>
-        <Navbar/>
-      <MbNav/>
+        <Navbar />
+        <MbNav />
 
         <Routes>
           <Route index element={<Home />} />

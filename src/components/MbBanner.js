@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Swal from "sweetalert2";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
+import MbBanner1 from "../components/Assets/sm-banner.jpg";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -81,10 +82,11 @@ function MbBanner() {
     <div>
       <div className=" md:grid-cols-2 block md:hidden">
         <div className="md:hidden block mt-10 md:mt-0">
-          <img
+          {/* <img
             src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
-          />
+          /> */}
+          <img src={MbBanner1} alt="mbbanner" />
         </div>
         <div className="container">
           <div className=" text-justify mt-5 mb-5 ">
