@@ -12,12 +12,13 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-function MbTestimonial() {
+function TestimonalNew() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
-    <div className="block md:hidden ">
+    <div className="md:block hidden ">
       <div>
         <div className="flex justify-center">
           <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
@@ -31,7 +32,7 @@ function MbTestimonial() {
             <CarouselProvider
               naturalSlideWidth={100}
               isIntrinsicHeight={true}
-              totalSlides={4}
+              totalSlides={2}
             >
               <Slider>
                 <Slide index={0} tabIndex="null">
@@ -49,7 +50,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center ">
+                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5  ">
                         Thanks for your entire team of Athulya for quick
                         response in arranging a doctor to visit my aged mother
                         (89 years) at home. Dr. Kasirajan visited very fast and
@@ -59,6 +60,28 @@ function MbTestimonial() {
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
                           - Sekar ms
+                        </p>
+                      </div>
+                    </div>
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
+                        <img
+                          class="object-fill    w-20 h-20 border-2 border-sky-900 rounded-full "
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                        />
+                      </div>
+
+                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center ">
+                        Athulya has homecare special for elderly peoples one the
+                        most trusted homecare their services were very
+                        professional i strongly recommend Athulya services as i
+                        personally experienced.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                          - Sri Preethi
                         </p>
                       </div>
                     </div>
@@ -75,7 +98,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center">
+                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 ">
                         Dr. Balachander who attended my mother is very kind,
                         patient and answered all queries and was Ontime, well
                         coordinated by the executives from Athulya home
@@ -88,21 +111,17 @@ function MbTestimonial() {
                         </p>
                       </div>
                     </div>
-                  </div>
-                </Slide>
-                <Slide index={2}>
-                  <div className="md:grid grid-flow-col md:space-x-4 ">
-                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
                       <div class="flex justify-center -mt-16 md:justify-end">
                         <img
-                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
+                          class="object-fill w-20 h-20 border-2 border-sky-900 rounded-full "
                           alt="Testimonial avatar"
                           src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                         />
                       </div>
 
-                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center">
-                      Great service.Their home care service is very helpful
+                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 ">
+                        Great service.Their home care service is very helpful
                         for elderly persons.They arrange doctors, Nurse,
                         physiotherapist and lab assistant to take sample for
                         testing exclusively awesome. excellent service
@@ -110,33 +129,7 @@ function MbTestimonial() {
 
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                        - Vignesh wikki
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </Slide>
-                <Slide index={3}>
-                  <div className="md:grid grid-flow-col md:space-x-4 ">
-                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
-                      <div class="flex justify-center -mt-16 md:justify-end">
-                        <img
-                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
-                          alt="Testimonial avatar"
-                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
-                        />
-                      </div>
-
-                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center">
-                      Athulya has homecare special for elderly peoples one the
-                        most trusted homecare their services were very
-                        professional i strongly recommend Athulya services as i
-                        personally experienced.
-                      </p>
-
-                      <div class="flex justify-end mt-4">
-                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                        - Sri Preethi
+                          - Vignesh wikki
                         </p>
                       </div>
                     </div>
@@ -194,4 +187,4 @@ function MbTestimonial() {
   );
 }
 
-export default MbTestimonial;
+export default TestimonalNew;

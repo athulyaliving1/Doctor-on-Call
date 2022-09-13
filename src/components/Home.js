@@ -8,11 +8,12 @@ import Athulya from "./Athulya";
 // import Banner from "./Banner";
 // import Test from "./Test";
 import Test1 from "./Test1";
-// import MbTestimonial from "./MbTestimonial";
+import MbTestimonial from "./MbTestimonial";
 import MbBanner from "./MbBanner";
 import XlForm from "./Enquiry";
 import BannerTemp from "./BannerTemp";
 import AboutAthulya from "./AboutAthulya";
+import TestimonalNew from "./TestimonialNew";
 
 function Home() {
   return (
@@ -20,11 +21,12 @@ function Home() {
       <BannerTemp />
       <XlForm />
       <MbBanner />
-     
-      <AboutAthulya/>
+
+      <AboutAthulya />
       <Test1 />
       <Athulya />
-  
+      <MbTestimonial />
+      <TestimonalNew />
     </div>
   );
 }

@@ -3,16 +3,16 @@ import React from "react";
 function MbNav() {
   return (
     <div className="bg-zinc-100 w-screen top-0 fixed z-50 shadow-xl block md:hidden ">
-      <div className="grid grid-flow-col">
-        <div className="px-5 ">
+      <div className="grid grid-flow-col place-content-center">
+        <div className="px-5">
           <img
-            className="xl:w-1/12 md:w-5/12 lg:w-2/12  w-7/12  mt-2 "
+            className="  xl:w-1/12 md:w-5/12 lg:w-2/12  w-10/12    "
             src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />
         </div>
-        <div>
-          <div className="mt-5   lg:mt-5 md:flex  text-sky-900 font-Poppins  font-semibold  space-x-5 mr-6">
+        <div className="">
+          <div className="sm:mt-2 mt-5   lg:mt-5 md:flex  text-sky-900 font-Poppins  font-semibold  space-x-5 mr-6 ">
             <a
               className="flex"
               href="tel:+9198849 45900"

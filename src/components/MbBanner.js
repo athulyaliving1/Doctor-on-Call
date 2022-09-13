@@ -87,7 +87,7 @@ function MbBanner() {
   return (
     <div>
       <div className=" md:grid-cols-2 block md:hidden">
-        <div className="md:hidden block mt-10 md:mt-0">
+        <div className="md:hidden block mt-12  sm:mt-0 md:mt-0 lg:mt-0  xl:mt-0 2xl:mt-0 ">
           {/* <img
             src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
