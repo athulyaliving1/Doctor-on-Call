@@ -38,40 +38,49 @@ function Banner() {
 
     const { name, email, textarea, number } = e.target.elements;
 
-    let details = {
-      name: name.value,
-      email: email.value,
-      number: number.value,
-      textarea: textarea.value,
-    };
-    let response = await fetch(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(details),
-      }
-    );
-    setStatus("Submit");
-    let result = await response.json();
-
-    if (result.status === "ERROR")
+    if (!name || !email || !number || !textarea) {
       Swal.fire({
         title: "Error!",
         text: "Something Went Wrong!!!",
         icon: "error",
         confirmButtonText: false,
       });
-    else {
-      Swal.fire({
-        icon: "success",
-        title: "Our Message Has Been Sent!",
-        text: "Our Team Will Contact You Shortly  ",
-        showConfirmButton: false,
-        timer: 2000,
-      });
+
+      let details = {
+        name: name.value,
+        email: email.value,
+        number: number.value,
+        textarea: textarea.value,
+      };
+      let response = await fetch(
+        "https://contact-app-server-athulya.herokuapp.com/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json;charset=utf-8",
+          },
+          body: JSON.stringify(details),
+        }
+      );
+      setStatus("Submit");
+      let result = await response.json();
+
+      if (result.status === "ERROR")
+        Swal.fire({
+          title: "Error!",
+          text: "Something Went Wrong!!!",
+          icon: "error",
+          confirmButtonText: false,
+        });
+      else {
+        Swal.fire({
+          icon: "success",
+          title: "Our Message Has Been Sent!",
+          text: "Our Team Will Contact You Shortly  ",
+          showConfirmButton: false,
+          timer: 2000,
+        });
+      }
     }
 
     setTimeout(function () {
