@@ -19,7 +19,10 @@ function Athulya() {
           </div>
         </div>
         <div class="container m-auto px-6 md:px-12 xl:px-6">
-          <div data-aos="fade-up" class="grid gap-12 lg:grid-cols-3 pb-10">
+          <div
+            data-aos="fade-up"
+            class="grid gap-12 md:grid-cols-2   lg:grid-cols-3 pb-10"
+          >
             <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl hover:shadow-2xl md:hover:scale-110 md:transition md:duration-700  md:hover:rotate-6">
               <div class="text-center py-10 justify-items-center">
                 <div class="space-y-2">

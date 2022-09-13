@@ -11,13 +11,13 @@ function About() {
 
   return (
     <div className=" bg-sky-800 md:pt-16  md:pb-16 ">
-      <div className="grid md:grid-cols-2">
+      <div className="grid xl:grid-rows-2   ">
         <div className="container ">
           <div className="container text-justify ">
             <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 "></div>
             <div className="flex justify-center text-xl font-semibold  mt-3">
-              <h1 className="text-white  md:text-3xl">
-                Best Home Visit Doctors In Hydrabad
+              <h1 className="text-white  md:text-2xl">
+                Best Home Visit Doctors In Hydrebad
               </h1>
             </div>
           </div>
@@ -33,15 +33,13 @@ function About() {
               solution provider, Athulya Home Healthcare brings the desired
               geriatric care with expert doctors for your senior’s medical
               consultation at the comfort of your home. Athulya Home healthcare
-              offers the doctor on call service in Hydrabad, with a wide range
+              offers the doctor on call service in Hydrebad, with a wide range
               of doctor home consultation services. Seniors can see doctors from
               the comfort of their own home, for everything from a routine
               medical check-up to treatment for chronic medical disorder
             </p>
           </div>
-        </div>
-        <div className="container  gap-5 mb-5  ">
-          <div className=" ">
+          <div className="gap-5 mb-5  ">
             <img
               data-aos="fade-down"
               className="rounded-xl"

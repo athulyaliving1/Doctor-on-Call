@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,7 +19,7 @@ function Test1() {
         </div>
         <div
           data-aos="zoom-in"
-          className="grid md:grid-cols-4 grid-cols-1   gap-5"
+          className="grid md:grid-cols-3 lg:grid-cols-4   grid-cols-1   gap-5"
         >
           <div class="relative max-w-md mx-auto xl:max-w-xl min-w-0 break-words bg-gradient-to-r from-pink-400 to-pink-500 w-full mb-6 shadow-lg rounded-xl mt-16">
             <div class="card">
@@ -32,7 +31,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white text-center font-Poppins md:text-xl">
+                <h4 class="font-semibold text-white text-center font-Poppins   md:text-lg  text-xl">
                   General medicine
                 </h4>
               </div>
@@ -48,7 +47,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg  text-xl text-center">
                   Dental
                 </h4>
               </div>
@@ -64,7 +63,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins text-xl  md:text-lg text-center">
                   Orthopaedics
                 </h4>
               </div>
@@ -73,10 +72,14 @@ function Test1() {
           <div class="relative max-w-md mx-auto xl:max-w-xl min-w-0 break-words bg-gradient-to-r from-pink-500 to-pink-400 w-full mb-6 shadow-lg rounded-xl mt-16">
             <div class="card">
               <div class=" mx-4 -mt-6">
-                <img class=" w-full rounded-lg" src="https://athulyahomecare.com/lp/images/1-07.jpg" alt="tailwind-card" />
+                <img
+                  class=" w-full rounded-lg"
+                  src="https://athulyahomecare.com/lp/images/1-07.jpg"
+                  alt="tailwind-card"
+                />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg text-xl text-center">
                   ENT
                 </h4>
               </div>
@@ -92,7 +95,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg text-xl text-center">
                   Ophthalmology
                 </h4>
               </div>
@@ -108,7 +111,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg text-xl text-center">
                   Diabetology
                 </h4>
               </div>
@@ -124,7 +127,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg text-xl text-center">
                   Neurology
                 </h4>
               </div>
@@ -140,7 +143,7 @@ function Test1() {
                 />
               </div>
               <div class="p-5">
-                <h4 class="font-semibold text-white font-Poppins md:text-xl text-center">
+                <h4 class="font-semibold text-white font-Poppins md:text-lg text-xl text-center">
                   Oncology
                 </h4>
               </div>

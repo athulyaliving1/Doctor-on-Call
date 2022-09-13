@@ -62,6 +62,10 @@ function Banner() {
           body: JSON.stringify(details),
         }
       );
+
+
+
+      
       setStatus("Submit");
       let result = await response.json();
 
