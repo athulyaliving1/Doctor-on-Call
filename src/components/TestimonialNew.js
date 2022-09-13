@@ -72,7 +72,7 @@ function TestimonalNew() {
                         />
                       </div>
 
-                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center ">
+                      <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 ">
                         Athulya has homecare special for elderly peoples one the
                         most trusted homecare their services were very
                         professional i strongly recommend Athulya services as i

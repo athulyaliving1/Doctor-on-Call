@@ -14,14 +14,14 @@ function AboutAthulya() {
         <div className=" text-justify ">
           <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 "></div>
           <div className="flex justify-center text-xl font-semibold mb-10 ">
-            <h1 className="text-white  md:text-2xl">
+            <h1 className="text-white  md:text-2xl text-center pt-5">
               Best Home Visit Doctors In Hydrebad
             </h1>
           </div>
         </div>
         <div
           data-aos="fade-up"
-          class=" md:grid-cols-2   lg:grid grid-cols-2      gap-12 pb-10 "
+          class=" md:grid-cols-2   lg:grid grid-cols-2  space-y-3 md:space-y-0 lg:space-y-0 xl:space-y-0 2xl:space-y-0      gap-12 pb-10 "
         >
           <div
             data-aos="fade-down"

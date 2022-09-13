@@ -19,7 +19,7 @@ function Test1() {
         </div>
         <div
           data-aos="zoom-in"
-          className="grid md:grid-cols-3 lg:grid-cols-4   grid-cols-1   gap-5"
+          className="grid md:grid-cols-3 lg:grid-cols-4   grid-cols-1   md:gap-5"
         >
           <div class="relative max-w-md mx-auto xl:max-w-xl min-w-0 break-words bg-gradient-to-r from-pink-400 to-pink-500 w-full mb-6 shadow-lg rounded-xl mt-16">
             <div class="card">
