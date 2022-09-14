@@ -32,7 +32,7 @@ function Test1() {
               </div>
               <div class="p-5">
                 <h4 class="font-semibold text-white text-center font-Poppins   md:text-lg  text-xl">
-                  General medicine
+                  General Medicine
                 </h4>
               </div>
             </div>

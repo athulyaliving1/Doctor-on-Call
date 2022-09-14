@@ -34,7 +34,7 @@ function Athulya() {
                       />
                     </div>
 
-                    <p class="font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
+                    <p class="font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
                       A sense of trust
                     </p>
                     <p className="font-Poppins   px-10 font-semibold opacity-80">
@@ -56,12 +56,12 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
+                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
                       Comprehensive Quality healthcare
                     </p>
                     <p className="  font-Poppins   px-10 font-semibold opacity-80">
-                      Imparts a convenient home care solution for those who
-                      require constant monitoring.
+                      Imparts a convenient home healthcare solution for those
+                      who require constant monitoring.
                     </p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl   text-sky-800  font-semibold text-2xl px-5">
+                    <p class=" font-Poppins xl:text-3xl   text-sky-800  font-semibold text-2xl px-5 capitalize">
                       Expert geriatric specialists
                     </p>
                     <p className="  font-Poppins   px-10 font-semibold opacity-80">
@@ -98,7 +98,7 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
+                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
                       Accessible and affordable at your convenience.
                     </p>
                     <p className=" font-Poppins   px-10 font-semibold opacity-80">
@@ -119,7 +119,7 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
+                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
                       Emotional support for the elder & their family
                     </p>
                     <p className="  font-Poppins   px-10 font-semibold opacity-80">
@@ -140,7 +140,7 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5">
+                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
                       Personalized approach in medical care
                     </p>
                     <p className=" font-Poppins   px-10 font-semibold opacity-80">
