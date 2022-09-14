@@ -31,7 +31,7 @@ const schema = yup
   })
   .required();
 
-function XlForm() {
+function MdEnquiry() {
   // const [status, setStatus] = useState("Submit");
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
@@ -80,15 +80,15 @@ function XlForm() {
   };
 
   return (
-    <div className="bg-zinc-400 ">
-      {/* 2xl Large devices */}
-      <div className="container mx-auto">
-        <div className="grid-cols-5   p-3 xl:block hidden font-Poppins">
+    <div className="bg-zinc-400">
+      {/* Md devices */}
+      <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden ">
+        <div className="grid-rows-1  p-3  font-Poppins">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
             class="p-6  flex flex-col justify-center  "
           >
-            <div className="grid grid-flow-col  md:grid-cols-5 space-x-10">
+            <div className="">
               <div className="flex flex-col">
                 <input
                   {...register("name")}
@@ -149,7 +149,7 @@ function XlForm() {
                 </p>
               </div>
 
-              <div className=" justify-center ">
+              <div className="flex justify-center ">
                 <button
                   class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
                   type="submit"
@@ -161,9 +161,8 @@ function XlForm() {
           </form>
         </div>
       </div>
-  
     </div>
   );
 }
 
-export default XlForm;
+export default MdEnquiry;

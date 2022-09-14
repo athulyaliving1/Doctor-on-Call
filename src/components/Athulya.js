@@ -103,7 +103,7 @@ function Athulya() {
                     </p>
                     <p className=" font-Poppins   px-10 font-semibold opacity-80">
                       Various forms of health care interactions that are more
-                      affordable and accessible.s.
+                      affordable and accessible.
                     </p>
                   </div>
                 </div>

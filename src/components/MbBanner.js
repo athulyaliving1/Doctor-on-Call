@@ -85,7 +85,7 @@ function MbBanner() {
     }, 2000);
   };
   return (
-    <div>
+    <div >
       <div className=" md:grid-cols-2 block md:hidden">
         <div className="md:hidden block ss:pt-14 sl:pt-16  ">
           {/* <img

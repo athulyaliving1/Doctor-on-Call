@@ -24,7 +24,7 @@ function AboutAthulya() {
           class=" md:grid-cols-2   lg:grid grid-cols-2  space-y-3 md:space-y-3 lg:space-y-0 xl:space-y-0 2xl:space-y-0      gap-12 pb-10 "
         >
           <div
-            data-aos="fade-down"
+          
             className=" p-5 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl grid lg:place-content-center 2xl:h-5/6    "
           >
             <div className="text-justify  md:text-xl font-semibold font-Poppins opacity-80 grid ">
@@ -42,7 +42,7 @@ function AboutAthulya() {
             </div>
           </div>
           <div
-            data-aos="fade-down"
+           
             className="p-3 rounded-xl group space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl 2xl:h-5/6  "
           >
             <img
