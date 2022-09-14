@@ -4,7 +4,7 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
-import MbBanner1 from "../components/Assets/sm-banner.jpg";
+// import MbBanner1 from "../components/Assets/sm-banner.jpg";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -85,14 +85,18 @@ function MbBanner() {
     }, 2000);
   };
   return (
-    <div >
+    <div>
       <div className=" md:grid-cols-2 block md:hidden">
         <div className="md:hidden block ss:pt-14 sl:pt-16  ">
           {/* <img
             src="https://athulyahomecare.com/lp/images/sm-banner.png"
             alt="smpic"
           /> */}
-          <img src={MbBanner1} alt="mbbanner" />
+          <img
+            src="https://athulyahomecare.com/lp/images/sm-banner.jpg
+            "
+            alt="mbbanner"
+          />
         </div>
         <div className="container">
           <div className=" text-justify mt-5 mb-5 ">

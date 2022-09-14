@@ -25,6 +25,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-slide-routes": "^2.0.0",
+    "react-whatsapp-chat-widget": "^1.1.1",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.4.29",
     "web-vitals": "^2.1.4",
