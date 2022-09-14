@@ -102,7 +102,7 @@ function MbTestimonial() {
                       </div>
 
                       <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center">
-                      Great service.Their home care service is very helpful
+                        Great service.Their home care service is very helpful
                         for elderly persons.They arrange doctors, Nurse,
                         physiotherapist and lab assistant to take sample for
                         testing exclusively awesome. excellent service
@@ -110,7 +110,7 @@ function MbTestimonial() {
 
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                        - Vignesh wikki
+                          - Vignesh wikki
                         </p>
                       </div>
                     </div>
@@ -128,7 +128,7 @@ function MbTestimonial() {
                       </div>
 
                       <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5 text-center">
-                      Athulya has homecare special for elderly peoples one the
+                        Athulya has homecare special for elderly peoples one the
                         most trusted homecare their services were very
                         professional i strongly recommend Athulya services as i
                         personally experienced.
@@ -136,7 +136,7 @@ function MbTestimonial() {
 
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                        - Sri Preethi
+                          - Sri Preethi
                         </p>
                       </div>
                     </div>
@@ -155,7 +155,7 @@ function MbTestimonial() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-white"
                   >
                     <path
                       stroke-linecap="round"
@@ -176,7 +176,7 @@ function MbTestimonial() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-white"
                   >
                     <path
                       stroke-linecap="round"
