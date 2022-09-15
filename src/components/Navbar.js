@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="bg-zinc-100 w-screen fixed z-50 shadow-2xl  md:block hidden ">
         <div className="xl:px-40 px-9 flex items-center ">
           <img
-            className=" md:w-1/5    xl:w-2/12 2xl:w-1/12  "
+            className="   md:w-1/5 sl:w-11/12   xl:w-2/12 2xl:w-1/12  "
             src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />

@@ -16,11 +16,14 @@ import AboutAthulya from "./AboutAthulya";
 import TestimonalNew from "./TestimonialNew";
 import MdEnquiry from "./MdEnquiry";
 
+
+
 function Home() {
   return (
     <div>
       <BannerTemp />
       <XlForm />
+
       <MbBanner />
       <MdEnquiry />
       <AboutAthulya />

@@ -83,7 +83,7 @@ function MdEnquiry() {
     <div className="bg-zinc-400">
       {/* Md devices */}
       <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden ">
-        <div className="grid-rows-1  p-3  font-Poppins">
+        <div className="grid-rows-1  p-3  font-Poppins content-center">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
             class="p-6  flex flex-col justify-center  "
