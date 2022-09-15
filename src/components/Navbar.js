@@ -14,7 +14,7 @@ export default function Navbar() {
             <ul className="mt-5 lg:mt-5 md:flex  text-sky-900 font-Poppins     space-x-5 ">
               <li className="flex  mb-3 md:mb-0 md:px-0">
                 <a
-                  className="flex"
+                  class="flex"
                   href="tel:+9198849 45900"
                   target="_blank"
                   rel="noreferrer"
@@ -22,7 +22,7 @@ export default function Navbar() {
                   <span className=" text-pink-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      classname="h-5 w-5"
+                      class="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <span className="   md:px-1 md:py-1 text-pink-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      classname="h-5 w-5"
+                      class="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
