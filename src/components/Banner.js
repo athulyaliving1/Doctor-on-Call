@@ -53,7 +53,7 @@ function Banner() {
         textarea: textarea.value,
       };
       let response = await fetch(
-        "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
+        "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcoimbatore",
         {
           method: "POST",
           headers: {
@@ -63,9 +63,6 @@ function Banner() {
         }
       );
 
-
-
-      
       setStatus("Submit");
       let result = await response.json();
 
@@ -132,7 +129,7 @@ function Banner() {
                               name="name"
                               type="text"
                               id="name"
-                              class=" border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                              className=" border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                             />
                             {errors.name && touched.name ? (
                               <p className="text-pink-500 font-Poppins font-semibold">
@@ -152,7 +149,7 @@ function Banner() {
                               type="email"
                               id="email"
                               name="email"
-                              class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                              className="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
                             />
                             {errors.email && touched.email ? (
                               <p className="text-pink-500 font-Poppins font-semibold">
@@ -171,7 +168,7 @@ function Banner() {
                               id="number"
                               type="number"
                               name="number"
-                              class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                              classname="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
                             />
                             {errors.number && touched.number ? (
                               <p className="text-pink-500 font-Poppins font-semibold">
@@ -202,7 +199,7 @@ function Banner() {
                           <div className="flex justify-center  md:py-1">
                             <button
                               type="submit"
-                              class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
+                              className=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
                             >
                               {status}
                             </button>

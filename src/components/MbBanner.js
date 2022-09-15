@@ -63,7 +63,7 @@ function MbBanner() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcoimbatore",
       {
         name,
         number,
@@ -107,21 +107,21 @@ function MbBanner() {
                 <div className="p-5">
                   <form onSubmit={handleSubmit(sendDataToAPI)}>
                     <div className="">
-                      <div class="relative z-0 mb-6 w-full group">
+                      <div className="relative z-0 mb-6 w-full group">
                         <input
                           {...register("name")}
                           onChange={(e) => setName(e.target.value)}
                           type="text"
                           name="name"
                           id="name"
-                          class="block py-2.5 px-0 w-full text-xl font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
+                          class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
                         <p className="text-pink-500 font-Poppins font-semibold">
                           {errors.name?.message}
                         </p>
                         <label
-                          for="name"
+                          htmlFor="name"
                           class="peer-focus:font-semibold  text-lg font-Robot font-semibold   absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Full Name
@@ -141,7 +141,7 @@ function MbBanner() {
                           {errors.email?.message}
                         </p>
                         <label
-                          for="floating_email"
+                          htmlFor="floating_email"
                           class="peer-focus:font-semibold   text-lg font-Robot font-semibold    absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Email address
@@ -161,7 +161,7 @@ function MbBanner() {
                           {errors.number?.message}
                         </p>
                         <label
-                          for="number"
+                          htmlFor="number"
                           class="peer-focus:font-semibold   text-lg font-Robot  font-semibold  absolute  text-sky-800  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pink-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                         >
                           Mobile Number

@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="bg-zinc-100 w-screen fixed z-50 shadow-2xl  md:block hidden ">
         <div className="xl:px-40 px-9 flex items-center ">
           <img
-            className="  md:w-1/5    xl:w-2/12 2xl:w-1/12  "
+            className=" md:w-1/5    xl:w-2/12 2xl:w-1/12  "
             src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />
@@ -22,7 +22,7 @@ export default function Navbar() {
                   <span className=" text-pink-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      classname="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <span className="   md:px-1 md:py-1 text-pink-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      classname="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >

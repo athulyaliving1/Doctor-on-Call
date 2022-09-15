@@ -57,7 +57,7 @@ function XlForm() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcoimbatore",
       {
         name,
         number,
