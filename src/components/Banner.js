@@ -53,7 +53,7 @@ function Banner() {
         textarea: textarea.value,
       };
       let response = await fetch(
-        "https://contact-app-server-athulya.herokuapp.com/contact",
+        "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
         {
           method: "POST",
           headers: {

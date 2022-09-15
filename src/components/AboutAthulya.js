@@ -15,7 +15,7 @@ function AboutAthulya() {
           <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 "></div>
           <div className="flex justify-center text-xl font-semibold mb-10 ">
             <h1 className="text-white  md:text-2xl text-center pt-5">
-              Best Home Visit Doctors In Hyderabad
+              Best Home Visit Doctors In Kochi
             </h1>
           </div>
         </div>
@@ -34,7 +34,7 @@ function AboutAthulya() {
               solution provider, Athulya Home Healthcare brings the desired
               geriatric care with expert doctors for your senior’s medical
               consultation at the comfort of your home. Athulya Home healthcare
-              offers the doctor on call service in Hyderabad, with a wide range
+              offers the doctor on call service in Kochi, with a wide range
               of doctor home consultation services. Seniors can see doctors from
               the comfort of their own home, for everything from a routine
               medical check-up to treatment for chronic medical disorder

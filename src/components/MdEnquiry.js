@@ -57,7 +57,7 @@ function MdEnquiry() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
       {
         name,
         number,

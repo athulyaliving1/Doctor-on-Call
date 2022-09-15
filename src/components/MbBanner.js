@@ -63,7 +63,7 @@ function MbBanner() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallhydrabad",
+      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
       {
         name,
         number,
@@ -93,8 +93,7 @@ function MbBanner() {
             alt="smpic"
           /> */}
           <img
-            src="https://athulyahomecare.com/lp/images/sm-banner.jpg
-            "
+            src="https://athulyahomecare.com/lp/images/sm-bannerk.jpg"
             alt="mbbanner"
           />
         </div>

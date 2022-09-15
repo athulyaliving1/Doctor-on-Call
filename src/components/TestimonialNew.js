@@ -38,7 +38,6 @@ function TestimonalNew() {
                 <Slide index={0} tabIndex="null">
                   <div
                     data-aos="fade-up"
-                    data-aos-anchor-placement="top-center"
                     className="md:grid grid-flow-col-dense md:space-x-4  mb-10"
                   >
                     <div class="max-w-md   px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">

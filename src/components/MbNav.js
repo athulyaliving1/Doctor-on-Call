@@ -6,7 +6,7 @@ function MbNav() {
       <div className="grid grid-flow-col place-content-center">
         <div className="px-5">
           <img
-            className="ss:w-11/12 sl:w-8/12 sm:w-9/12   "
+            className="ss:w-11/12 sl:w-8/12 sm:w-8/12"
             src="https://athulyahomecare.com/lp/images/care.png"
             alt="logo"
           />
