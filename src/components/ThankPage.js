@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Thankyoupage() {
   return (
     <div className="bg-sky-100 ">
@@ -21,7 +22,7 @@ function Thankyoupage() {
         <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
           <img
             className="object-fill w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96 xl:h-full "
-            src="https://athulyahomecare.com/lp/medical-equipments/assets/medical-equip-banner.jpg"
+            src="https://athulyahomecare.com/lp/images/thank-you-doctor-call.jpg"
             alt="thank you"
           />
         </div>
