@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -33,6 +34,7 @@ const schema = yup
 
 function XlForm() {
   // const [status, setStatus] = useState("Submit");
+  let navigate = useNavigate();
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -66,13 +68,15 @@ function XlForm() {
       }
     );
 
-    Swal.fire({
-      icon: "success",
-      title: "Our Message Has Been Sent!",
-      text: "Our Team Will Contact You Shortly  ",
-      showConfirmButton: false,
-      timer: 2000,
-    });
+    navigate("/tkpage");
+
+    // Swal.fire({
+    //   icon: "success",
+    //   title: "Our Message Has Been Sent!",
+    //   text: "Our Team Will Contact You Shortly  ",
+    //   showConfirmButton: false,
+    //   timer: 2000,
+    // });
 
     setTimeout(function () {
       window.location.reload(1);
@@ -83,12 +87,12 @@ function XlForm() {
     <div className="bg-zinc-400 ">
       {/* 2xl Large devices */}
       <div className="container mx-auto">
-        <div className="grid-cols-5   p-3 xl:block hidden font-Poppins">
+        <div className="hidden grid-cols-5 p-3 xl:block font-Poppins">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
-            class="p-6  flex flex-col justify-center  "
+            class="p-6  flex flex-col justify-center"
           >
-            <div className="grid grid-flow-col  md:grid-cols-5 space-x-10">
+            <div className="grid grid-flow-col space-x-5 md:grid-cols-5">
               <div className="flex flex-col">
                 <input
                   {...register("name")}
@@ -96,10 +100,10 @@ function XlForm() {
                   id="name"
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Enter Your Name"
-                  className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="name"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.name?.message}
                 </p>
               </div>
@@ -111,10 +115,10 @@ function XlForm() {
                   id="email"
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter Your Email"
-                  className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5 "
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="email"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.email?.message}
                 </p>
               </div>
@@ -125,11 +129,11 @@ function XlForm() {
                   type="number"
                   id="number"
                   onChange={(e) => setNumber(e.target.value)}
-                  placeholder="Enter Your Mobile number"
-                  className="w-100 mt-2 py-3 rounded-lg bg-white border border-gray-400 font-semibold focus:border-sky-700 focus:outline-none placeholder:px-5"
+                  placeholder="Enter Your Number"
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="number"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.number?.message}
                 </p>
               </div>
@@ -141,17 +145,17 @@ function XlForm() {
                   onChange={(e) => setTextarea(e.target.value)}
                   placeholder="Enter Your Message"
                   rows="1"
-                  class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none "
+                  class="form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
                   name="textarea"
                 />
-                <p className="text-pink-500 font-Poppins font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.textarea?.message}
                 </p>
               </div>
 
-              <div className=" justify-center ">
+              <div className="justify-center ">
                 <button
-                  class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
+                  class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
                   type="submit"
                 >
                   Submit
@@ -161,7 +165,6 @@ function XlForm() {
           </form>
         </div>
       </div>
-  
     </div>
   );
 }

@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 // import MbBanner1 from "../components/Assets/sm-banner.jpg";
 
 const phoneRegExp =
@@ -39,6 +40,7 @@ const schema = yup
 
 function MbBanner() {
   // const [status, setStatus] = useState("Submit");
+  let navigate = useNavigate();
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -71,14 +73,14 @@ function MbBanner() {
         textarea,
       }
     );
-
-    Swal.fire({
-      icon: "success",
-      title: "Our Message Has Been Sent!",
-      text: "Our Team Will Contact You Shortly  ",
-      showConfirmButton: false,
-      timer: 2000,
-    });
+    navigate("/tkpage");
+    // Swal.fire({
+    //   icon: "success",
+    //   title: "Our Message Has Been Sent!",
+    //   text: "Our Team Will Contact You Shortly  ",
+    //   showConfirmButton: false,
+    //   timer: 2000,
+    // });
 
     setTimeout(function () {
       window.location.reload(1);
@@ -86,16 +88,16 @@ function MbBanner() {
   };
   return (
     <div>
-      <div className=" md:grid-cols-2 block md:hidden ">
-        <div className="md:hidden block ss:mt-14 sl:mt-18 mt-16  ">
+      <div className="block md:grid-cols-2 md:hidden">
+        <div className="block mt-16 md:hidden ss:mt-14 sl:mt-18 ">
           <img
             src="https://athulyahomecare.com/lp/images/sm-banner-coimbatore.jpg"
             alt="mbbanner"
           />
         </div>
         <div className="container">
-          <div className=" text-justify mt-5 mb-5 ">
-            <h1 className="xl:text-3xl  flex justify-center text-xl font-sans font-semibold  md:text-white  text-sky-800 md:p-5 p-2  ">
+          <div className="mt-5 mb-5 text-justify ">
+            <h1 className="flex justify-center p-2 font-sans text-xl font-semibold xl:text-3xl md:text-white text-sky-800 md:p-5 ">
               Submit Your Details
             </h1>
             <div>
@@ -103,7 +105,7 @@ function MbBanner() {
                 <div className="p-5">
                   <form onSubmit={handleSubmit(sendDataToAPI)}>
                     <div className="">
-                      <div className="relative z-0 mb-6 w-full group">
+                      <div className="relative z-0 w-full mb-6 group">
                         <input
                           {...register("name")}
                           onChange={(e) => setName(e.target.value)}
@@ -113,7 +115,7 @@ function MbBanner() {
                           class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold   text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
-                        <p className="text-pink-500 font-Poppins font-semibold">
+                        <p className="font-semibold text-pink-500 font-Poppins">
                           {errors.name?.message}
                         </p>
                         <label
@@ -133,7 +135,7 @@ function MbBanner() {
                           class="block py-2.5 px-0 w-full text-lg font-Robot font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
-                        <p className="text-pink-500 font-Poppins font-semibold">
+                        <p className="font-semibold text-pink-500 font-Poppins">
                           {errors.email?.message}
                         </p>
                         <label
@@ -153,7 +155,7 @@ function MbBanner() {
                           class="block py-2.5 px-0 w-full  text-lg font-Robot  font-semibold  text-gray-900 bg-transparent border-0 border-b-2 border-sky-900 appearance-none   focus:outline-none focus:ring-0 focus:border-sky-800 peer"
                           placeholder=" "
                         />
-                        <p className="text-pink-500 font-Poppins font-semibold">
+                        <p className="font-semibold text-pink-500 font-Poppins">
                           {errors.number?.message}
                         </p>
                         <label
@@ -165,7 +167,7 @@ function MbBanner() {
                       </div>
                       <div class="flex flex-col mt-2">
                         <label
-                          className="text-sky-800  text-lg font-semibold"
+                          className="text-lg font-semibold text-sky-800"
                           htmlFor="textarea"
                         >
                           Message
@@ -178,11 +180,11 @@ function MbBanner() {
                           rows="4"
                           class="peer   w-100 mt-2 py-3 px-3 rounded-lg bg-zinc-100  border-2   border-sky-800   font-semibold focus:border-sky-700 focus:outline-none"
                         />
-                        <p className="text-pink-500 font-Poppins font-semibold">
+                        <p className="font-semibold text-pink-500 font-Poppins">
                           {errors.textarea?.message}
                         </p>
                       </div>
-                      <div className="flex justify-center  md:py-1">
+                      <div className="flex justify-center md:py-1">
                         <button class="  rounded-md py-3 px-6 m-1 overflow-hidden relative group cursor-pointer border-2  border-sky-800  text-white bg-pink-500 font-bold">
                           <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-sky-900 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                           <span class="relative  text-white transition duration-300 group-hover:text-white ease">

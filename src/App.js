@@ -5,10 +5,15 @@ import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
 import Services from "./components/Services.js";
 import Athulya from "./components/Athulya.js";
+import Thankyoupage from "./components/ThankPage";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
 import MbNav from "./components/MbNav.js";
+import { loadProgressBar } from "axios-progress-bar";
+import "axios-progress-bar/dist/nprogress.css";
 // import Header from "./components/Header.js";
+
+loadProgressBar();
 
 function App() {
   return (
@@ -20,10 +25,12 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="athulya" element={<Athulya />} />
           <Route path="testimonal" element={<Testimonial />} />
+          <Route path="/tkpage" element={<Thankyoupage />} />
 
           <Route
             path="*"

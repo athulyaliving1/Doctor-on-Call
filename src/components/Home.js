@@ -23,7 +23,6 @@ function Home() {
     <div>
       <BannerTemp />
       <XlForm />
-
       <MbBanner />
       <MdEnquiry />
       <AboutAthulya />
