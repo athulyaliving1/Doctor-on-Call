@@ -8,7 +8,12 @@ import Athulya from "./components/Athulya.js";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
 import MbNav from "./components/MbNav.js";
+import Thankyoupage from "./components/Thankpage.js";
+import { loadProgressBar } from "axios-progress-bar";
+import "axios-progress-bar/dist/nprogress.css";
 // import Header from "./components/Header.js";
+
+loadProgressBar();
 
 function App() {
   return (
@@ -24,6 +29,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="athulya" element={<Athulya />} />
           <Route path="testimonal" element={<Testimonial />} />
+          <Route path="tkpage" element={<Thankyoupage />} />
 
           <Route
             path="*"
