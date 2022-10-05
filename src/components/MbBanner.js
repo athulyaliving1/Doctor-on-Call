@@ -64,7 +64,7 @@ function MbBanner() {
       });
     }
 
-    await axios.post("http://162.241.222.86:5000/contactdoctoroncallcochin", {
+    await axios.post("http://162.241.222.86:5000/contactdoctoroncallhydrabad", {
       name,
       number,
       email,
@@ -94,7 +94,7 @@ function MbBanner() {
             alt="smpic"
           /> */}
           <img
-            src="https://athulyahomecare.com/lp/images/sm-bannerk.jpg"
+            src="https://athulyahomecare.com/lp/images/sm-banner.jpg"
             alt="mbbanner"
           />
         </div>

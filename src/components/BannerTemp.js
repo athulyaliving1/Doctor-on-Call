@@ -7,8 +7,8 @@ function BannerTemp() {
   return (
     <div>
       <img
-        className="w-full h-auto md:pt-14  object-cover hidden md:block"
-        src="https://athulyahomecare.com/lp/images/bannerk.jpg"
+        className="hidden object-cover w-full h-auto md:pt-14 md:block"
+        src="https://athulyahomecare.com/lp/images/banner.png"
         alt="banner"
       ></img>
       <div className="absolute">
