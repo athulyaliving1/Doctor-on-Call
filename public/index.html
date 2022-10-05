@@ -27,10 +27,7 @@
       name="keywords"
       content="doctor on call Kochi, house visiting doctors in Kochi, doctor on call in Kochi, home doctor service in Kochi "
     />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="upgrade-insecure-requests"
-    />
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -76,6 +73,22 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <style type="text/css">
+      #nprogress .bar {
+        background: #ef4882 !important;
+      }
+
+      #nprogress .peg {
+        box-shadow: 0 0 10px #ef4882, 0 0 10px #ef4882 !important;
+      }
+
+      #nprogress .spinner-icon {
+        border-top-color: #ef4882 !important;
+        border-left-color: #ef4882 !important;
+      }
+    </style>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
