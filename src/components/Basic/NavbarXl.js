@@ -13,7 +13,7 @@ function NavbarXl() {
               alt="logo"
             />
             <div class=" md:flex    font-semibold   md:ml-auto">
-              <ul className="mt-5 space-x-5 text-lg lg:mt-5 md:flex text-sky-900 font-Poppins xl:text-2xl">
+              <ul className="mt-5 space-x-5 text-lg lg:mt-8 md:flex text-sky-900 font-Poppins xl:text-2xl">
                 <li className="flex mb-3 md:mb-0 md:px-0">
                   <a
                     className="flex"
@@ -24,7 +24,7 @@ function NavbarXl() {
                     <span className="text-pink-500 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        class="h-8 w-8"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -44,7 +44,7 @@ function NavbarXl() {
                     <span className="text-pink-500 md:px-1 md:py-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        class="h-8 w-8"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >

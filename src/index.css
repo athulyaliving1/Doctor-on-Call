@@ -12,6 +12,6 @@
   }
 
   .btn-sub-para {
-    @apply mb-4 text-lg font-medium leading-tight tracking-tight text-black font-OpenSans;
+    @apply mb-4 text-lg font-medium leading-tight tracking-tight text-black xl:text-xl font-OpenSans;
   }
 }

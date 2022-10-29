@@ -127,7 +127,7 @@ function ThreeSection() {
           <div>
             <img
               className="rounded-md"
-              src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667026453/687-x746-doctor-visit-2_tvv1sq.jpg"
+              src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667030046/687-x746-doctor-visit-2_1_t9cwvx.jpg"
               alt="doctorvist "
             />
           </div>
