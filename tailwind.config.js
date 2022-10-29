@@ -23,11 +23,13 @@ module.exports = {
 
     extend: {},
     fontFamily: {
+      SourceSansPro: ["Source Sans Pro", "sans-serif"],
+      NotoSans: ["Source Sans Pro", "sans-serif"],
+      Nunito: ["Nunito", "sans-serif"],
+      Merriweather: ["Merriweather", "serif"],
+      Oswald: ["Oswald", "sans-serif"],
       Poppins: ["Poppins", "sans-serif"],
-      Roboto: ["Roboto", "sans-serif"],
-      sans: ["Open Sans", "sans-serif"],
-      Helvetica: ["Open Sans", "sans-serif"],
-      Ubuntu: ["Ubuntu", "sans-serif"],
+      OpenSans:["Open Sans", "sans-serif"]
     },
 
     container: {

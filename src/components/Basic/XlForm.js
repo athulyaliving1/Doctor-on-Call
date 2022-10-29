@@ -58,12 +58,15 @@ export default function XlForm() {
       });
     }
 
-    await axios.post("http://162.241.222.86:5000/contact", {
-      name,
-      number,
-      email,
-      textarea,
-    });
+    await axios.post(
+      "https://contact-app-server-athulya.herokuapp.com/contact",
+      {
+        name,
+        number,
+        email,
+        textarea,
+      }
+    );
 
     // Swal.fire({
     //   icon: "success",
@@ -84,12 +87,12 @@ export default function XlForm() {
     <div className="bg-sky-900 ">
       {/* 2xl Large devices */}
       <div className="container mx-auto">
-        <div className=" p-3 xl:block hidden font-Ubuntu">
+        <div className="hidden p-3 xl:block font-Ubuntu">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
             class="p-6  flex flex-col justify-center"
           >
-            <div className="grid grid-flow-col  md:grid-cols-5 space-x-5">
+            <div className="grid grid-flow-col space-x-5 md:grid-cols-5">
               <div className="flex flex-col">
                 <input
                   {...register("name")}
@@ -97,10 +100,10 @@ export default function XlForm() {
                   id="name"
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Enter Your Name"
-                  className="form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="name"
                 />
-                <p className="text-pink-500 font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.name?.message}
                 </p>
               </div>
@@ -112,10 +115,10 @@ export default function XlForm() {
                   id="email"
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter Your Email"
-                  className=" form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="email"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.email?.message}
                 </p>
               </div>
@@ -127,10 +130,10 @@ export default function XlForm() {
                   id="number"
                   onChange={(e) => setNumber(e.target.value)}
                   placeholder="Enter Your Number"
-                  className="form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
+                  className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="number"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.number?.message}
                 </p>
               </div>
@@ -145,12 +148,12 @@ export default function XlForm() {
                   class="form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
                   name="textarea"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.textarea?.message}
                 </p>
               </div>
 
-              <div className=" justify-center ">
+              <div className="justify-center ">
                 <button
                   class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
                   type="submit"

@@ -57,7 +57,7 @@ function MdForm() {
     }
 
     await axios.post(
-      "https://contact-app-server-athulya.herokuapp.com/contactdoctoroncallcochin",
+      "https://contact-app-server-athulya.herokuapp.com/contact",
       {
         name,
         number,
@@ -81,8 +81,8 @@ function MdForm() {
   return (
     <div className="bg-sky-900">
       {/* Md devices */}
-      <div className="container mx-auto hidden 2xl:hidden md:block xl:hidden font-Ubuntu  ">
-        <div className="grid-rows-1  p-3  font-Poppins">
+      <div className="container hidden mx-auto 2xl:hidden md:block xl:hidden font-Ubuntu ">
+        <div className="grid-rows-1 p-3 font-Poppins">
           <form
             onSubmit={handleSubmit(sendDataToAPI)}
             class="p-6  flex flex-col justify-center  "
@@ -95,10 +95,10 @@ function MdForm() {
                   id="name"
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Enter Your Name"
-                  className="form-control block w-full px-3 py-3 mt-3   font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
+                  className="block w-full px-3 py-3 m-0 mt-3 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="name"
                 />
-                <p className="text-pink-500 font-Ubuntu font-semibold">
+                <p className="font-semibold text-pink-500 font-Ubuntu">
                   {errors.name?.message}
                 </p>
               </div>
@@ -110,10 +110,10 @@ function MdForm() {
                   id="email"
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter Your Email"
-                  className="form-control block w-full px-3 py-3 mt-3   font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
+                  className="block w-full px-3 py-3 m-0 mt-3 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
                   name="email"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.email?.message}
                 </p>
               </div>
@@ -125,10 +125,10 @@ function MdForm() {
                   id="number"
                   onChange={(e) => setNumber(e.target.value)}
                   placeholder="Enter Your Mobile number"
-                  className="form-control block w-full px-3 py-3 mt-3   font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
+                  className="block w-full px-3 py-3 m-0 mt-3 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="number"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.number?.message}
                 </p>
               </div>
@@ -143,7 +143,7 @@ function MdForm() {
                   class="form-control block w-full px-3 py-3 mt-3    font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none"
                   name="textarea"
                 />
-                <p className="text-pink-500  font-semibold">
+                <p className="font-semibold text-pink-500">
                   {errors.textarea?.message}
                 </p>
               </div>

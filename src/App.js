@@ -17,10 +17,6 @@ function App() {
       <HashRouter>
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="dashboard" element={<Dashboard/>}/>
-          <Route path="add" element={<Add />} />
-          <Route path="edit" element={<Edit />} /> */}
-
           <Route path="home" element={<Home />} />
           <Route path="tkpage" element={<Thankpage />} />
           <Route

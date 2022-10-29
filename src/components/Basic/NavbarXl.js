@@ -5,23 +5,23 @@ function NavbarXl() {
   return (
     <div>
       <div className="">
-        <div className="bg-zinc-100 w-screen fixed z-50 shadow-xl md:block hidden ">
-          <div className="container mx-auto flex items-center ">
+        <div className="fixed z-50 hidden w-screen shadow-xl bg-zinc-100 md:block ">
+          <div className="container flex items-center mx-auto ">
             <img
-              className="xl:w-1/12 2xl:h-4/6  desktop:w-2/12  md:w-2/12 lg:w-2/12   w-5/12  mt-2 "
+              className="w-5/12 mt-2 xl:w-2/12 2xl:h-4/6 desktop:w-2/12 md:w-2/12 lg:w-2/12 "
               src={Logo}
               alt="logo"
             />
-            <div class=" md:flex  fon   font-semibold   md:ml-auto">
-              <ul className="mt-5 lg:mt-5 md:flex  text-sky-900 font-Helvetica    space-x-5 ">
-                <li className="flex  mb-3 md:mb-0 md:px-0">
+            <div class=" md:flex    font-semibold   md:ml-auto">
+              <ul className="mt-5 space-x-5 text-lg lg:mt-5 md:flex text-sky-900 font-Poppins xl:text-2xl">
+                <li className="flex mb-3 md:mb-0 md:px-0">
                   <a
                     className="flex"
                     href="tel:98849 45900 "
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className=" text-pink-500">
+                    <span className="text-pink-500 ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -34,14 +34,14 @@ function NavbarXl() {
                     98849 45900
                   </a>
                 </li>
-                <li className="md:flex hidden ">
+                <li className="hidden md:flex ">
                   <a
                     className="flex"
                     href="mailto:mailto:enquiry@athulyaliving.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="   md:px-1 md:py-1 text-pink-500">
+                    <span className="text-pink-500 md:px-1 md:py-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"

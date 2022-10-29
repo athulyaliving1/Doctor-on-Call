@@ -14,14 +14,14 @@ function Mbtestimonal() {
     <div className="block md:hidden ">
       <div>
         <div className="flex justify-center">
-          <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
-            <div className="md:text-3xl  font-sans font-semibold  mb-10 mt-10  md:px-0 text-xl ">
-              <h1 className="  md:text-3xl">Our Testimonial</h1>
+          <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
+            <div className="mt-10 mb-10 font-sans text-xl font-semibold md:text-3xl md:px-0 ">
+              <h1 className=" md:text-3xl">Our Testimonial</h1>
             </div>
           </div>
         </div>
         <div className="bg-sky-900">
-          <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
+          <div className="relative z-40 px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container">
             <CarouselProvider
               naturalSlideWidth={100}
               isIntrinsicHeight={true}
@@ -167,7 +167,7 @@ function Mbtestimonal() {
               </Slider>
               <div className="flex justify-center">
                 <ButtonBack
-                  className="cursor-pointer text-white "
+                  className="text-white cursor-pointer "
                   role="button"
                   aria-label="previous slide"
                 >
