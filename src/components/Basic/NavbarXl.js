@@ -13,7 +13,7 @@ function NavbarXl() {
               alt="logo"
             />
             <div class=" md:flex    font-semibold   md:ml-auto">
-              <ul className="mt-5 space-x-5 text-lg lg:mt-8 md:flex text-sky-900 font-Poppins xl:text-2xl">
+              <ul className="mt-5 space-x-5 text-lg lg:mt-8 md:flex text-sky-900 font-Poppins md:text-lg xl:text-xl">
                 <li className="flex mb-3 md:mb-0 md:px-0">
                   <a
                     className="flex"
@@ -34,10 +34,10 @@ function NavbarXl() {
                     98849 45900
                   </a>
                 </li>
-                <li className="hidden md:flex ">
+                <li className="hidden md:flex">
                   <a
                     className="flex"
-                    href="mailto:mailto:enquiry@athulyaliving.com"
+                    href="mailto:response@athulyahomecare.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -52,7 +52,7 @@ function NavbarXl() {
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                       </svg>
                     </span>
-                    enquiry@athulyaliving.com
+                    response@athulyahomecare.com
                   </a>
                 </li>
               </ul>

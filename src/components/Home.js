@@ -8,6 +8,8 @@ import FaqSection from "./Content/FaqSection";
 import FirstSection from "./Content/FirstSection";
 // import FourSection from "./Content/FourSection";
 import ThreeSection from "./Content/ThreeSection";
+import TestimonalNew from "./TestimonialNew";
+import MbTestimonial from "./Mbtestimonal";
 
 function Home() {
   return (
@@ -20,6 +22,8 @@ function Home() {
       <Card />
       <ThreeSection />
       <FaqSection />
+      <TestimonalNew />
+      <MbTestimonial/>
     </div>
   );
 }

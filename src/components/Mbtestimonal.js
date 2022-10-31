@@ -1,5 +1,6 @@
 import React from "react";
 
+// import Heading from "./Heading";
 import {
   CarouselProvider,
   Slider,
@@ -9,14 +10,14 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-function Mbtestimonal() {
+function MbTestimonial() {
   return (
     <div className="block md:hidden ">
       <div>
         <div className="flex justify-center">
           <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
-            <div className="mt-10 mb-10 font-sans text-xl font-semibold md:text-3xl md:px-0 ">
-              <h1 className=" md:text-3xl">Our Testimonial</h1>
+            <div className="btn-sub-heading">
+              <h1 className="">Client FeedBack</h1>
             </div>
           </div>
         </div>
@@ -29,145 +30,117 @@ function Mbtestimonal() {
             >
               <Slider>
                 <Slide index={0} tabIndex="null">
-                  <div class="flex items-center justify-center px-5 py-5">
-                    <div class="w-full mx-auto max-w-xl rounded-lg bg-white  shadow-lg px-5 pt-5 pb-10 text-gray-800 ">
-                      <div class="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    className="grid-flow-col-dense mb-10 md:grid md:space-x-4"
+                  >
+                    <div class="max-w-md   px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
                         <img
-                          alt="profil"
-                          src="/images/person/1.jpg"
-                          class="mx-auto object-cover rounded-full h-20 w-20 "
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full "
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                         />
                       </div>
-                      <div class="w-full mb-10">
-                        <div class="text-3xl text-indigo-500 text-left leading-tight h-3">
-                          “
-                        </div>
-                        <p class="text-sm text-gray-600 px-5">
-                          To get social media testimonials like these, keep your
-                          customers engaged with your social media accounts by
-                          posting regularly yourself
-                        </p>
-                        <div class="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">
-                          ”
-                        </div>
-                      </div>
-                      <div class="w-full">
-                        <p class="text-md text-indigo-500 font-bold text-center">
-                          Tom Hardy
-                        </p>
-                        <p class="text-xs text-gray-500  text-center">
-                          @thom.hardy
+
+                      <p class="btn-sub-para   ">
+                        Thanks for your entire team of Athulya for quick
+                        response in arranging a doctor to visit my aged mother
+                        (89 years) at home. Dr. Kasirajan visited very fast and
+                        given treatment with proper diagnosis.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Sekar ms
                         </p>
                       </div>
                     </div>
                   </div>
                 </Slide>
                 <Slide index={1}>
-                  <div class="flex items-center justify-center px-5 py-5">
-                    <div class="w-full mx-auto max-w-xl rounded-lg bg-white  shadow-lg px-5 pt-5 pb-10 text-gray-800 ">
-                      <div class="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
+                  <div className="grid-flow-col md:grid md:space-x-4 ">
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
                         <img
-                          alt="profil"
-                          src="/images/person/1.jpg"
-                          class="mx-auto object-cover rounded-full h-20 w-20 "
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                         />
                       </div>
-                      <div class="w-full mb-10">
-                        <div class="text-3xl text-indigo-500 text-left leading-tight h-3">
-                          “
-                        </div>
-                        <p class="text-sm text-gray-600 px-5">
-                          To get social media testimonials like these, keep your
-                          customers engaged with your social media accounts by
-                          posting regularly yourself
-                        </p>
-                        <div class="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">
-                          ”
-                        </div>
-                      </div>
-                      <div class="w-full">
-                        <p class="text-md text-indigo-500 font-bold text-center">
-                          Tom Hardy
-                        </p>
-                        <p class="text-xs text-gray-500  text-center">
-                          @thom.hardy
+
+                      <p class="btn-sub-para  ">
+                        Dr. Balachander who attended my mother is very kind,
+                        patient and answered all queries and was Ontime, well
+                        coordinated by the executives from Athulya home
+                        HealthCare service.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Jayaraman Kannan
                         </p>
                       </div>
                     </div>
                   </div>
                 </Slide>
                 <Slide index={2}>
-                  <div class="flex items-center justify-center px-5 py-5">
-                    <div class="w-full mx-auto max-w-xl rounded-lg bg-white  shadow-lg px-5 pt-5 pb-10 text-gray-800 ">
-                      <div class="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
+                  <div className="grid-flow-col md:grid md:space-x-4 ">
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
                         <img
-                          alt="profil"
-                          src="/images/person/1.jpg"
-                          class="mx-auto object-cover rounded-full h-20 w-20 "
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                         />
                       </div>
-                      <div class="w-full mb-10">
-                        <div class="text-3xl text-indigo-500 text-left leading-tight h-3">
-                          “
-                        </div>
-                        <p class="text-sm text-gray-600 px-5">
-                          To get social media testimonials like these, keep your
-                          customers engaged with your social media accounts by
-                          posting regularly yourself
-                        </p>
-                        <div class="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">
-                          ”
-                        </div>
-                      </div>
-                      <div class="w-full">
-                        <p class="text-md text-indigo-500 font-bold text-center">
-                          Tom Hardy
-                        </p>
-                        <p class="text-xs text-gray-500  text-center">
-                          @thom.hardy
+
+                      <p class="btn-sub-para  ">
+                        Great service.Their home care service is very helpful
+                        for elderly persons.They arrange doctors, Nurse,
+                        physiotherapist and lab assistant to take sample for
+                        testing exclusively awesome. excellent service
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Vignesh wikki
                         </p>
                       </div>
                     </div>
                   </div>
                 </Slide>
                 <Slide index={3}>
-                  <div class="flex items-center justify-center px-5 py-5">
-                    <div class="w-full mx-auto max-w-xl rounded-lg bg-white  shadow-lg px-5 pt-5 pb-10 text-gray-800 ">
-                      <div class="w-full pt-1 text-center pb-5 -mt-16 mx-auto">
+                  <div className="grid-flow-col md:grid md:space-x-4 ">
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
                         <img
-                          alt="profil"
-                          src="/images/person/1.jpg"
-                          class="mx-auto object-cover rounded-full h-20 w-20 "
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                         />
                       </div>
-                      <div class="w-full mb-10">
-                        <div class="text-3xl text-indigo-500 text-left leading-tight h-3">
-                          “
-                        </div>
-                        <p class="text-sm text-gray-600 px-5">
-                          To get social media testimonials like these, keep your
-                          customers engaged with your social media accounts by
-                          posting regularly yourself
-                        </p>
-                        <div class="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">
-                          ”
-                        </div>
-                      </div>
-                      <div class="w-full">
-                        <p class="text-md text-indigo-500 font-bold text-center">
-                          Tom Hardy
-                        </p>
-                        <p class="text-xs text-gray-500  text-center">
-                          @thom.hardy
+
+                      <p class="btn-sub-para  ">
+                        Athulya has homecare special for elderly peoples one the
+                        most trusted homecare their services were very
+                        professional i strongly recommend Athulya services as i
+                        personally experienced.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Sri Preethi
                         </p>
                       </div>
                     </div>
                   </div>
                 </Slide>
               </Slider>
-              <div className="flex justify-center">
+              <div className="flex items-center mt-8">
                 <ButtonBack
-                  className="text-white cursor-pointer "
+                  className="cursor-pointer "
                   role="button"
                   aria-label="previous slide"
                 >
@@ -177,12 +150,12 @@ function Mbtestimonal() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-white"
                   >
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z"
+                      d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
                     />
                   </svg>
                 </ButtonBack>
@@ -190,7 +163,7 @@ function Mbtestimonal() {
                 <ButtonNext
                   role="button"
                   aria-label="next slide"
-                  className="text-white "
+                  className="absolute right-0 z-30 ml-2 mr-8 cursor-pointer focus:outline-none "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -198,12 +171,12 @@ function Mbtestimonal() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    class="w-6 h-6 text-white"
                   >
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
                     />
                   </svg>
                 </ButtonNext>
@@ -216,4 +189,4 @@ function Mbtestimonal() {
   );
 }
 
-export default Mbtestimonal;
+export default MbTestimonial;

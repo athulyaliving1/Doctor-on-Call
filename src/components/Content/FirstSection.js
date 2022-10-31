@@ -56,7 +56,7 @@ function FirstSection() {
           <div className="grid md:relative md:col-span-1 lg:col-span-2 place-content-center">
             <img
               className="inset-0 object-cover object-bottom w-full h-56 rounded shadow-lg lg:absolute lg:h-full"
-              src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667030046/2250-x-1500-doctor-visit_1_m6q1tj.jpg"
+              src="https://athulyaliving.com/images/doc-vist-chen-1-min.webp"
               alt=""
             />
           </div>

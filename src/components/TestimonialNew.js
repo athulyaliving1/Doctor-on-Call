@@ -1,395 +1,179 @@
 import React from "react";
-import user from "../Assest/user.jpg";
 
-function TestimonialNew() {
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
+
+function TestimonalNew() {
   return (
-    <>
-      <div className="bg-zinc-100">
-        <h2 className="text-2xl leading-6  text-center px-4 pt-10  md:text-xl xl:text-2xl    text-sky-800  font-bold capitalize font-Helvetica  ">
-          Testimonials
-        </h2>
-        <h1 className="lg:text-5xl md:text-4xl text-2xl  text-sky-800  font-bold capitalize font-Helvetica  px-4  mt-6 text-center">
-          What our<span className="text-pink-500"> client says</span>
-        </h1>
-        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
-          <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
-                <svg
-                  width={26}
-                  height={27}
-                  viewBox="0 0 26 27"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clipPath="url(#clip0)">
-                    <path
-                      d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0">
-                      <rect
-                        width="24.5767"
-                        height={27}
-                        fill="black"
-                        transform="translate(25.2578 27) rotate(-180)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Swift response. Good support and service by staff. Doctors
-                  have great patience and provide good consultation to the
-                  elderly.
-                </p>
-              </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
-                <svg
-                  width={34}
-                  height={28}
-                  viewBox="0 0 34 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g filter="url(#filter0_dd)">
-                    <path
-                      d="M17 19L28.2583 3.25H5.74167L17 19Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd"
-                      x="0.741699"
-                      y="0.25"
-                      width="32.5167"
-                      height="27.75"
-                      filterUnits="userSpaceOnUse"
-                      colorInterpolationFilters="sRGB"
-                    >
-                      <feFlood floodOpacity={0} result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feMorphology
-                        radius={1}
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow"
-                      />
-                      <feOffset dy={4} />
-                      <feGaussianBlur stdDeviation={3} />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feOffset dy={2} />
-                      <feGaussianBlur stdDeviation="2.5" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow"
-                        result="effect2_dropShadow"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center mt-10">
-              <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Arivoli A
-              </p>
-              <div className="text-yellow-400 mt-2">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
-                <svg
-                  width={26}
-                  height={27}
-                  viewBox="0 0 26 27"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clipPath="url(#clip0)">
-                    <path
-                      d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0">
-                      <rect
-                        width="24.5767"
-                        height={27}
-                        fill="black"
-                        transform="translate(25.2578 27) rotate(-180)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Very good service for senior home care patients. Dr. Janakan,
-                  examined my Grandma very well and had much patience to listen
-                  elderly people.
-                </p>
-              </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
-                <svg
-                  width={34}
-                  height={28}
-                  viewBox="0 0 34 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g filter="url(#filter0_dd)">
-                    <path
-                      d="M17 19L28.2583 3.25H5.74167L17 19Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd"
-                      x="0.741699"
-                      y="0.25"
-                      width="32.5167"
-                      height="27.75"
-                      filterUnits="userSpaceOnUse"
-                      colorInterpolationFilters="sRGB"
-                    >
-                      <feFlood floodOpacity={0} result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feMorphology
-                        radius={1}
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow"
-                      />
-                      <feOffset dy={4} />
-                      <feGaussianBlur stdDeviation={3} />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feOffset dy={2} />
-                      <feGaussianBlur stdDeviation="2.5" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow"
-                        result="effect2_dropShadow"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center mt-10">
-              <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Vishwa bal
-              </p>
-              <div className="text-yellow-400 mt-2">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="group w-full bg-white relative flex flex-col items-center hover:bg-sky-800 cursor-pointer shadow-xl md:p-12 p-6 rounded-xl">
-              <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
-                <svg
-                  width={26}
-                  height={27}
-                  viewBox="0 0 26 27"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clipPath="url(#clip0)">
-                    <path
-                      d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z"
-                      fill="currentColor"
-                    />
-                    <path
-                      d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0">
-                      <rect
-                        width="24.5767"
-                        height={27}
-                        fill="black"
-                        transform="translate(25.2578 27) rotate(-180)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-                <p className="mb-8 md:text-xl font-Ubuntu font-semibold    xl:w-80 text-base leading-normal text-center mt-4 ">
-                  Took doctor visit in my home for my father. He is recovering
-                  well. Happy with the service provided. Thank you.
-                </p>
-              </div>
-              <div className="text-white group-hover:text-sky-800 absolute bottom-0 -mb-6">
-                <svg
-                  width={34}
-                  height={28}
-                  viewBox="0 0 34 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g filter="url(#filter0_dd)">
-                    <path
-                      d="M17 19L28.2583 3.25H5.74167L17 19Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_dd"
-                      x="0.741699"
-                      y="0.25"
-                      width="32.5167"
-                      height="27.75"
-                      filterUnits="userSpaceOnUse"
-                      colorInterpolationFilters="sRGB"
-                    >
-                      <feFlood floodOpacity={0} result="BackgroundImageFix" />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feMorphology
-                        radius={1}
-                        operator="erode"
-                        in="SourceAlpha"
-                        result="effect1_dropShadow"
-                      />
-                      <feOffset dy={4} />
-                      <feGaussianBlur stdDeviation={3} />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="BackgroundImageFix"
-                        result="effect1_dropShadow"
-                      />
-                      <feColorMatrix
-                        in="SourceAlpha"
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      />
-                      <feOffset dy={2} />
-                      <feGaussianBlur stdDeviation="2.5" />
-                      <feColorMatrix
-                        type="matrix"
-                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in2="effect1_dropShadow"
-                        result="effect2_dropShadow"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect2_dropShadow"
-                        result="shape"
-                      />
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center mt-10">
-              <img src={user} alt="profile pictre" className="w-12 h-12" />
-              <p className="text-base leading-4 text-center font-Helvetica font-semibold opacity-90 ">
-                Sathiya satz
-              </p>
-              <div className="text-yellow-400 mt-2">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
+    <div className="hidden md:block ">
+      <div>
+        <div className="flex justify-center">
+          <div className="mt-3 ">
+            <div className="mt-10 mb-10 btn-sub-heading">
+              <h1 className="">Client FeedBack</h1>
             </div>
           </div>
         </div>
+        <div className="bg-sky-900">
+          <div className="relative z-40 px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container">
+            <CarouselProvider
+              naturalSlideWidth={100}
+              isIntrinsicHeight={true}
+              totalSlides={2}
+            >
+              <Slider>
+                <Slide index={0} tabIndex="null">
+                  <div className="grid-flow-col-dense mb-10 md:grid md:space-x-4">
+                    <div class="max-w-md   px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
+                        <img
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full "
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                        />
+                      </div>
+
+                      <p class="btn-sub-para  ">
+                        Thanks for your entire team of Athulya for quick
+                        response in arranging a doctor to visit my aged mother
+                        (89 years) at home. Dr. Kasirajan visited very fast and
+                        given treatment with proper diagnosis.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Sekar ms
+                        </p>
+                      </div>
+                    </div>
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
+                        <img
+                          class="object-fill    w-20 h-20 border-2 border-sky-900 rounded-full "
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                        />
+                      </div>
+
+                      <p class="btn-sub-para   ">
+                        Athulya has homecare special for elderly peoples one the
+                        most trusted homecare their services were very
+                        professional i strongly recommend Athulya services as i
+                        personally experienced.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                          - Sri Preethi
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide index={1}>
+                  <div className="grid-flow-col md:grid md:space-x-4 ">
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl 0 ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
+                        <img
+                          class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                        />
+                      </div>
+
+                      <p class="btn-sub-para   ">
+                        Dr. Balachander who attended my mother is very kind,
+                        patient and answered all queries and was Ontime, well
+                        coordinated by the executives from Athulya home
+                        HealthCare service.
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Jayaraman Kannan
+                        </p>
+                      </div>
+                    </div>
+                    <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-2xl ">
+                      <div class="flex justify-center -mt-16 md:justify-end">
+                        <img
+                          class="object-fill w-20 h-20 border-2 border-sky-900 rounded-full "
+                          alt="Testimonial avatar"
+                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                        />
+                      </div>
+
+                      <p class="btn-sub-para   ">
+                        Great service.Their home care service is very helpful
+                        for elderly persons.They arrange doctors, Nurse,
+                        physiotherapist and lab assistant to take sample for
+                        testing exclusively awesome. excellent service
+                      </p>
+
+                      <div class="flex justify-end mt-4">
+                        <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
+                          - Vignesh wikki
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Slide>
+              </Slider>
+              <div className="flex items-center mt-8">
+                <ButtonBack
+                  className="cursor-pointer "
+                  role="button"
+                  aria-label="previous slide"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-white font-extrabold"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                    />
+                  </svg>
+                </ButtonBack>
+
+                <ButtonNext
+                  role="button"
+                  aria-label="next slide"
+                  className="absolute right-0 z-30 ml-2 mr-8 cursor-pointer focus:outline-none "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-white "
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </ButtonNext>
+              </div>
+            </CarouselProvider>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default TestimonialNew;
+export default TestimonalNew;

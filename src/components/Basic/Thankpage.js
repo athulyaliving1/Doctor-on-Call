@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Thankpic from "../../Assest/ophthalmology-3.jpg";
 
 function Thankpage() {
   return (
@@ -11,18 +10,19 @@ function Thankpage() {
             <img
               alt="feature"
               class="object-cover object-center h-full w-full"
-              src={Thankpic}
+              src="https://athulyahomecare.com/lp/images/thank-you-doctor-call.jpg"
             />
           </div>
           <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden xl:mt-10 grid  gap-4 content-center ">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-              <h2 className="max-w-lg mb-6 font-Helvetica mt-10 text-3xl font-bold leading-none tracking-tight text-sky-800 sm:text-4xl md:mx-auto capitalize">
+              <h2 className="max-w-lg mt-10 mb-6 text-3xl font-bold leading-none tracking-tight capitalize font-Helvetica text-sky-800 sm:text-4xl md:mx-auto">
                 <span className="relative inline-block ">
                   <span className="relative"> Your</span>
                 </span>
-                <span></span> form is <span className="text-pink-500">successfully submitted!</span>   
+                <span></span> form is{" "}
+                <span className="text-pink-500">successfully submitted!</span>
               </h2>
-              <p className="text-base text-sky-800 md:text-lg xl:text-xl 2xl:text-xl font-semibold   font-Ubuntu">
+              <p className="text-base font-semibold text-sky-800 md:text-lg xl:text-xl 2xl:text-xl font-Ubuntu">
                 Thank for your enquiring with us! Our Customer Service
                 Executives will reach to you at the earliest! Do wait for our
                 call!

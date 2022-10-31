@@ -10,7 +10,7 @@ function Banner() {
       <div>
         <img
           className="hidden w-full h-full pt-10 bg-cover md:block md:pt-16 lg:pt-20 "
-          src="https://athulyaliving.com/images/Namma-Chennai-xl-banner.jpg"
+          src="https://athulyaliving.com/images/Namma-Chennai-xl-banner-min.webp"
           alt="banner "
         />
       </div>
@@ -21,7 +21,7 @@ function Banner() {
           position="left"
           widgetWidth="300px"
           widgetWidthMobile="260px"
-          autoOpen={true}
+          autoOpen={false}
           autoOpenTimer={5000}
           messageBox={true}
           // messageBoxTxt="Hi Team, is there any related service available ?"

@@ -20,7 +20,7 @@ function ThreeSection() {
 
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                 <img
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                  src="https://athulyaliving.com/images/tick.png"
                   alt="tick"
                 />
               </div>
@@ -38,7 +38,7 @@ function ThreeSection() {
               </div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                 <img
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                  src="https://athulyaliving.com/images/tick.png"
                   alt="tick"
                 />
               </div>
@@ -54,7 +54,7 @@ function ThreeSection() {
               </div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                 <img
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                  src="https://athulyaliving.com/images/tick.png"
                   alt="tick"
                 />
               </div>
@@ -71,7 +71,7 @@ function ThreeSection() {
               </div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                 <img
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                  src="https://athulyaliving.com/images/tick.png"
                   alt="tick"
                 />
               </div>
@@ -86,7 +86,7 @@ function ThreeSection() {
               <div class="h-full w-10 absolute inset-0 flex items-center justify-center"></div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                 <img
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                  src="https://athulyaliving.com/images/tick.png"
                   alt="tick"
                 />
               </div>
@@ -105,7 +105,7 @@ function ThreeSection() {
               <div>
                 <img
                   className="rounded-md"
-                  src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667026453/687-x746-doctor-visit-1_epgrxk.jpg"
+                  src="https://athulyaliving.com/images/doc-vist-chen-3-min.webp"
                   alt="doctor vist "
                 />
               </div>
@@ -127,7 +127,7 @@ function ThreeSection() {
           <div>
             <img
               className="rounded-md"
-              src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667030046/687-x746-doctor-visit-2_1_t9cwvx.jpg"
+              src="https://athulyaliving.com/images/doc-vist-chen-2-min.webp"
               alt="doctorvist "
             />
           </div>
@@ -143,7 +143,7 @@ function ThreeSection() {
 
                   <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                     <img
-                      src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                      src="https://athulyaliving.com/images/tick.png"
                       alt="tick"
                     />
                   </div>
@@ -164,7 +164,7 @@ function ThreeSection() {
                   </div>
                   <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                     <img
-                      src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                      src="https://athulyaliving.com/images/tick.png"
                       alt="tick"
                     />
                   </div>
@@ -182,7 +182,7 @@ function ThreeSection() {
                   </div>
                   <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                     <img
-                      src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                      src="https://athulyaliving.com/images/tick.png"
                       alt="tick"
                     />
                   </div>
@@ -197,7 +197,7 @@ function ThreeSection() {
                   <div class="h-full w-10 absolute inset-0 flex items-center justify-center"></div>
                   <div class="flex-shrink-0 w-10 h-10 rounded-full bg-sky-800 inline-flex items-center justify-center text-white relative z-10">
                     <img
-                      src="https://res.cloudinary.com/drywqd3hf/image/upload/v1667023629/tick-20x20_i7kowz.png "
+                      src="https://athulyaliving.com/images/tick.png"
                       alt="tick"
                     />
                   </div>
