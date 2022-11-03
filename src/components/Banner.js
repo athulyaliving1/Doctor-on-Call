@@ -91,7 +91,7 @@ function Banner() {
   return (
     <div className="hidden pt-5 bg-zinc-100 md:pt-16 md:mt-0 md:block">
       <div
-        class="
+        className="
 		md:bg-[url('https://athulyahomecare.com/lp/images/banner.png')]  h-full w-full bg-cover bg-no-repeat   "
       >
         <div className="grid md:grid-cols-2">
@@ -118,7 +118,7 @@ function Banner() {
                     {({ errors, touched }) => (
                       <Form onSubmit={formSubmit}>
                         <div className="">
-                          <div class="flex flex-col">
+                          <div className="flex flex-col">
                             <label
                               className="text-xl font-semibold text-sky-800"
                               htmlFor="name"
@@ -129,7 +129,7 @@ function Banner() {
                               name="name"
                               type="text"
                               id="name"
-                              class=" border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                              className="px-3 py-3 mt-2 font-semibold bg-white rounded-lg border-slate-400 w-100 focus:border-sky-700 focus:outline-none"
                             />
                             {errors.name && touched.name ? (
                               <p className="font-semibold text-pink-500 font-Poppins">
@@ -137,7 +137,7 @@ function Banner() {
                               </p>
                             ) : null}
                           </div>
-                          <div class="flex flex-col mt-2 ">
+                          <div className="flex flex-col mt-2 ">
                             <label
                               htmlFor="email"
                               className="text-xl font-semibold text-sky-800"
@@ -149,7 +149,7 @@ function Banner() {
                               type="email"
                               id="email"
                               name="email"
-                              class="peer border border-slate-400  w-100 mt-2 py-3 px-3 rounded-lg bg-white  font-semibold focus:border-sky-700 focus:outline-none "
+                              className="px-3 py-3 mt-2 font-semibold bg-white border rounded-lg peer border-slate-400 w-100 focus:border-sky-700 focus:outline-none "
                             />
                             {errors.email && touched.email ? (
                               <p className="font-semibold text-pink-500 font-Poppins">
@@ -157,7 +157,7 @@ function Banner() {
                               </p>
                             ) : null}
                           </div>
-                          <div class="flex flex-col mt-2 ">
+                          <div className="flex flex-col mt-2 ">
                             <label
                               className="text-xl font-semibold text-sky-800"
                               htmlFor="number"
@@ -168,7 +168,7 @@ function Banner() {
                               id="number"
                               type="number"
                               name="number"
-                              class="peer  w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                              className="px-3 py-3 mt-2 font-semibold bg-white border border-gray-400 rounded-lg peer w-100 focus:border-sky-700 focus:outline-none"
                             />
                             {errors.number && touched.number ? (
                               <p className="font-semibold text-pink-500 font-Poppins">
@@ -176,7 +176,7 @@ function Banner() {
                               </p>
                             ) : null}
                           </div>
-                          <div class="flex flex-col mt-2">
+                          <div className="flex flex-col mt-2">
                             <label
                               className="text-xl font-semibold text-sky-800"
                               htmlFor="textarea"
@@ -188,7 +188,7 @@ function Banner() {
                               id="textarea"
                               cols="30"
                               rows="3"
-                              class="peer border  w-100 mt-2 py-3 px-3 rounded-lg bg-white   border-gray-400   font-semibold focus:border-sky-700 focus:outline-none"
+                              className="px-3 py-3 mt-2 font-semibold bg-white border border-gray-400 rounded-lg peer w-100 focus:border-sky-700 focus:outline-none"
                             ></Field>
                             {errors.textarea && touched.textarea ? (
                               <p className="font-semibold text-pink-500 font-Poppins">
@@ -199,7 +199,7 @@ function Banner() {
                           <div className="flex justify-center md:py-1">
                             <button
                               type="submit"
-                              class=" bg-pink-600  text-white font-bold py-3 px-6 rounded-lg mt-3   hover:ring-4 ring-sky-700 transition ease-in-out duration-100"
+                              className="px-6 py-3 mt-3 font-bold text-white transition duration-100 ease-in-out bg-pink-600 rounded-lg hover:ring-4 ring-sky-700"
                             >
                               {status}
                             </button>

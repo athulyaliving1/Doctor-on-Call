@@ -21,30 +21,30 @@ function Testimonial() {
   };
 
   return (
-    <div className="md:pt-16  md:pb-16 md:block hidden">
+    <div className="hidden md:pt-16 md:pb-16 md:block">
       <div className="flex justify-center">
-        <div className="font-Poppins text-3xl font-semibold  mt-3 text-sky-800  ">
-          <div className="md:text-3xl  font-sans font-semibold mt-4 mb-4  md:px-0 text-xl ">
-            <h1 className="  md:text-3xl">Client Feedback</h1>
+        <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
+          <div className="mt-4 mb-4 font-sans text-xl font-semibold md:text-3xl md:px-0 ">
+            <h1 className=" md:text-3xl">Client Feedback</h1>
           </div>
         </div>
       </div>
       <Slider {...settings}>
         <div className="">
-          <div class="py-16 bg-sky-800  ">
+          <div className="py-16 bg-sky-800 ">
             ;' '
             <div
               data-aos="flip-up"
-              class="container m-auto px-6  md:px-12 xl:px-6"
+              className="container px-6 m-auto md:px-12 xl:px-6"
             >
-              <div class="grid gap-12 md:grid-cols-2   grid-cols-1">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
+              <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+                <div className="p-1 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl">
+                  <div className="py-10 text-center justify-items-center">
+                    <div className="space-y-2">
+                      <div className="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="w-2/12 rounded-full"
                             src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
@@ -66,26 +66,26 @@ function Testimonial() {
                             <ion-icon name="star"></ion-icon>
                           </span>
                         </div>
-                        <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
+                        <p className="px-5 font-semibold font-Poppins opacity-80 semi-bold md:text-xl">
                           Thanks for your entire team of Athulya for quick
                           response in arranging a doctor to visit my aged mother
                           (89 years) at home. Dr. Kasirajan visited very fast
                           and given treatment with proper diagnosis.
                         </p>
-                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                        <p className="px-10 font-semibold text-right text-sky-800 font-Roboto md:text-xl">
                           - Sekar ms
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
+                <div className="p-1 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl">
+                  <div className="py-10 text-center justify-items-center">
+                    <div className="space-y-2">
+                      <div className="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="w-2/12 rounded-full"
                             src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
@@ -107,13 +107,13 @@ function Testimonial() {
                             <ion-icon name="star"></ion-icon>
                           </span>
                         </div>
-                        <p class=" font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
+                        <p className="px-5 font-semibold font-Poppins opacity-80 semi-bold md:text-xl">
                           Great service.Their home care service is very helpful
                           for elderly persons.They arrange doctors, Nurse,
                           physiotherapist and lab assistant to take sample for
                           testing exclusively awesome. excellent service
                         </p>
-                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                        <p className="px-10 font-semibold text-right text-sky-800 font-Roboto md:text-xl">
                           - Vignesh wikki
                         </p>
                       </div>
@@ -125,16 +125,16 @@ function Testimonial() {
           </div>
         </div>
         <div className="bg-sky-800">
-          <div class="py-20 ">
-            <div class="container m-auto px-6  md:px-12 xl:px-6">
-              <div class="grid gap-12 md:grid-cols-2 ">
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
+          <div className="py-20 ">
+            <div className="container px-6 m-auto md:px-12 xl:px-6">
+              <div className="grid gap-12 md:grid-cols-2 ">
+                <div className="p-1 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl">
+                  <div className="py-10 text-center justify-items-center">
+                    <div className="space-y-2">
+                      <div className="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="w-2/12 rounded-full"
                             src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
@@ -156,26 +156,26 @@ function Testimonial() {
                             <ion-icon name="star"></ion-icon>
                           </span>
                         </div>
-                        <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
+                        <p className="px-5 font-semibold font-Poppins opacity-80 semi-bold md:text-xl">
                           Athulya has homecare special for elderly peoples one
                           the most trusted homecare their services were very
                           professional i strongly recommend Athulya services as
                           i personally experienced.
                         </p>
-                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                        <p className="px-10 font-semibold text-right text-sky-800 font-Roboto md:text-xl">
                           - Sri Preethi
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="p-1 rounded-xl group sm:flex space-x-6 bg-zinc-100 shadow-xl hover:rounded-2xl">
-                  <div class="text-center py-10 justify-items-center">
-                    <div class="space-y-2">
-                      <div class="space-y-4">
+                <div className="p-1 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl">
+                  <div className="py-10 text-center justify-items-center">
+                    <div className="space-y-2">
+                      <div className="space-y-4">
                         <div className="flex justify-center">
                           <img
-                            className="rounded-full  w-2/12"
+                            className="w-2/12 rounded-full"
                             src="https://athulyahomecare.com/lp/images/Avatar.jpg"
                             alt="avatar"
                           />
@@ -197,13 +197,13 @@ function Testimonial() {
                             <ion-icon name="star"></ion-icon>
                           </span>
                         </div>
-                        <p class="font-Poppins   font-semibold opacity-80 semi-bold md:text-xl px-5">
+                        <p className="px-5 font-semibold font-Poppins opacity-80 semi-bold md:text-xl">
                           Dr. Balachander who attended my mother is very kind,
                           patient and answered all queries and was Ontime, well
                           coordinated by the executives from Athulya home
                           HealthCare service.
                         </p>
-                        <p className="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold">
+                        <p className="px-10 font-semibold text-right text-sky-800 font-Roboto md:text-xl">
                           - Jayaraman Kannan
                         </p>
                       </div>

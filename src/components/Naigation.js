@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 function Naigation() {
   return (
     <div>
-      <div className="  ">
+      <div className="">
         <div className="bg-zinc-100 ">
           <div className="container m-auto ">
             <div className="">
               <div>
-                <ul className="flex  justify-evenly">
-                  <li class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-sky-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-zinc-300 group">
-                    <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
-                    <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                <ul className="flex justify-evenly">
+                  <li className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out rounded text-sky-800 hover:pl-10 hover:pr-6 bg-zinc-300 group">
+                    <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
+                    <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -28,9 +28,9 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                    <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -44,15 +44,15 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="relative px-10 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                    <span className="relative px-10 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                       <Link to="/home"> Home </Link>
                     </span>
                   </li>
-                  <li class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-sky-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-zinc-300 group">
-                    <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
-                    <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                  <li className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out rounded text-sky-800 hover:pl-10 hover:pr-6 bg-zinc-300 group">
+                    <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
+                    <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -66,9 +66,9 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                    <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -82,15 +82,15 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="relative px-10 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                    <span className="relative px-10 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                       <Link to="/about">About</Link>
                     </span>
                   </li>
-                  <li class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-sky-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-zinc-300 group">
-                    <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
-                    <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                  <li className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out rounded text-sky-800 hover:pl-10 hover:pr-6 bg-zinc-300 group">
+                    <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
+                    <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -104,9 +104,9 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                    <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -120,15 +120,15 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="relative px-10  text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                    <span className="relative px-10 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                       <Link to="/services">Services</Link>
                     </span>
                   </li>
-                  <li class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-sky-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-zinc-300 group">
-                    <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
-                    <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                  <li className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out rounded text-sky-800 hover:pl-10 hover:pr-6 bg-zinc-300 group">
+                    <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
+                    <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -142,9 +142,9 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                    <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -158,13 +158,13 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="relative px-5 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                    <span className="relative px-5 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                       <Link to="/athulya">Why Athulya</Link>
                     </span>
                   </li>
-                  <li class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-sky-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-zinc-300 group">
-                    <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
-                    <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                  <li className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out rounded text-sky-800 hover:pl-10 hover:pr-6 bg-zinc-300 group">
+                    <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-sky-800 group-hover:h-full"></span>
+                    <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                       <svg
                         class="w-5 h-5 text-pink-500"
                         fill="none"
@@ -180,9 +180,9 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                    <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                       <svg
-                        class="w-5 h-5 text-pink-500"
+                        className="w-5 h-5 text-pink-500"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -196,7 +196,7 @@ function Naigation() {
                         ></path>
                       </svg>
                     </span>
-                    <span class="relative px-5  text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+                    <span className="relative px-5 text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                       <Link to="/testimonal">Testimonal</Link>
                     </span>
                   </li>

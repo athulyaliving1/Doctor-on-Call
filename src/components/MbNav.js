@@ -2,7 +2,7 @@ import React from "react";
 
 function MbNav() {
   return (
-    <div className="bg-zinc-100 w-screen top-0 fixed z-50 shadow-xl block md:hidden ">
+    <div className="fixed top-0 z-50 block w-screen shadow-xl bg-zinc-100 md:hidden ">
       <div className="grid grid-flow-col place-content-center">
         <div className="px-5">
           <img
@@ -12,17 +12,17 @@ function MbNav() {
           />
         </div>
         <div className="">
-          <div className="ss:mt-5 sl:mt-7 sm:mt-5   lg:mt-5 md:flex  text-sky-900 font-Poppins  font-semibold  space-x-5 mr-6 ">
+          <div className="mr-6 space-x-5 font-semibold ss:mt-5 sl:mt-7 sm:mt-5 lg:mt-5 md:flex text-sky-900 font-Poppins ">
             <a
               className="flex"
               href="tel:+9198849 45900"
               target="_blank"
               rel="noreferrer"
             >
-              <span className=" text-pink-500">
+              <span className="text-pink-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  className="w-5 h-5"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
