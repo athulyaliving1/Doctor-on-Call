@@ -10,13 +10,13 @@ function About() {
   }, []);
 
   return (
-    <div className=" bg-sky-800 md:pt-16  md:pb-16 ">
-      <div className="grid xl:grid-rows-2   ">
+    <div className=" bg-sky-800 md:pt-16 md:pb-16">
+      <div className="grid xl:grid-rows-2 ">
         <div className="container ">
           <div className="container text-justify ">
-            <div className=" font-Poppins flex justify-center text-3xl font-semibold  mt-3 "></div>
-            <div className="flex justify-center text-xl font-semibold  mt-3">
-              <h1 className="text-white  md:text-2xl">
+            <div className="flex justify-center mt-3 text-3xl font-semibold  font-Poppins"></div>
+            <div className="flex justify-center mt-3 text-xl font-semibold">
+              <h1 className="text-white md:text-2xl">
                 Best Home Visit Doctors In Kochi
               </h1>
             </div>
@@ -24,9 +24,9 @@ function About() {
 
           <div
             data-aos="fade-down"
-            className="container p-5 rounded-xl group sm:flex space-x-6 bg-zinc-100  shadow-xl hover:shadow-2xl  mt-8 mb-5"
+            className="container p-5 mt-8 mb-5 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:shadow-2xl"
           >
-            <p className="text-justify  md:text-xl font-semibold font-Poppins opacity-80 ">
+            <p className="font-semibold text-justify md:text-xl font-Poppins opacity-80 ">
               Elders frequently have one or more physical limitations that need
               them to rely on others for transportation. Often it remains to be
               a hindrance to attend their medical appointments on time. To be a
@@ -39,7 +39,7 @@ function About() {
               medical check-up to treatment for chronic medical disorder
             </p>
           </div>
-          <div className="gap-5 mb-5  ">
+          <div className="gap-5 mb-5 ">
             <img
               data-aos="fade-down"
               className="rounded-xl"

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-heading {
+    @apply mb-4 text-2xl font-bold text-black uppercase font-Poppins md:text-3xl xl:text-4xl sm:text-xl;
+  }
+
+  .btn-sub-heading {
+    @apply text-xl font-bold uppercase sm:text-xl lg:text-2xl text-sky-800;
+  }
+
+  .btn-sub-para {
+    @apply mb-4 text-lg font-medium leading-tight tracking-tight text-justify text-black xl:text-xl font-OpenSans;
+  }
+}

@@ -8,12 +8,12 @@ function Test1() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="bg-zinc-100 ">
-      <div className="container px-6 pt-10 m-auto md:px-12 xl:px-6">
+    <div className="bg-zinc-50 ">
+      <div className="container px-6 pt-10 pb-10 m-auto md:px-12 xl:px-6">
         <div className="flex justify-center">
-          <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
-            <div className="mt-4 mb-4 font-sans text-xl font-semibold md:text-3xl md:px-0 ">
-              <h1 className=" md:text-3xl">Our Doctor Visits At Home</h1>
+          <div className="mt-3 font-semibold text-sky-800 ">
+            <div className="mt-4 mb-4 font-semibold btn-heading md:px-0 ">
+              <h1 className="">Our Doctor Visits At Home</h1>
             </div>
           </div>
         </div>

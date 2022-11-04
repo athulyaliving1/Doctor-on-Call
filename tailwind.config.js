@@ -26,6 +26,7 @@ module.exports = {
       Poppins: ["Poppins", "sans-serif"],
       Roboto: ["Roboto", "sans-serif"],
       sans: ["Open Sans", "sans-serif"],
+      OpenSans:["Open Sans", "sans-serif"]
     },
 
     container: {

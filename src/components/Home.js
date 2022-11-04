@@ -15,17 +15,21 @@ import BannerTemp from "./BannerTemp";
 import AboutAthulya from "./AboutAthulya";
 import TestimonalNew from "./TestimonialNew";
 import MdEnquiry from "./MdEnquiry";
+import FaqSection from "./FaqSectiom";
+import ThreeSection from "./ThreeSection";
 
 function Home() {
   return (
-    <div>
+    <div className="bg-zinc-200">
       <BannerTemp />
       <XlForm />
       <MbBanner />
       <MdEnquiry />
       <AboutAthulya />
+      <ThreeSection />
       <Test1 />
       <Athulya />
+      <FaqSection />
       <MbTestimonial />
       <TestimonalNew />
     </div>

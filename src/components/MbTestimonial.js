@@ -17,12 +17,12 @@ function MbTestimonial() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="block md:hidden ">
+    <div className="block md:hidden bg-sky-900">
       <div>
         <div className="flex justify-center">
-          <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
-            <div className="mt-10 mb-10 font-sans text-xl font-semibold md:text-3xl md:px-0 ">
-              <h1 className=" md:text-3xl">Client FeedBack</h1>
+          <div className="mt-3 ">
+            <div className="mt-10 mb-10 ">
+              <h1 className="text-white btn-sub-heading">Client FeedBack</h1>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p className="px-5 font-semibold text-center font-Poppins opacity-80 semi-bold md:text-xl ">
+                      <p className="px-5 text-center btn-sub-para">
                         Thanks for your entire team of Athulya for quick
                         response in arranging a doctor to visit my aged mother
                         (89 years) at home. Dr. Kasirajan visited very fast and
@@ -75,7 +75,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p className="px-5 font-semibold text-center font-Poppins opacity-80 semi-bold md:text-xl">
+                      <p className="px-5 text-center btn-sub-para">
                         Dr. Balachander who attended my mother is very kind,
                         patient and answered all queries and was Ontime, well
                         coordinated by the executives from Athulya home
@@ -101,7 +101,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p className="px-5 font-semibold text-center font-Poppins opacity-80 semi-bold md:text-xl">
+                      <p className="px-5 text-center btn-sub-para">
                         Great service.Their home care service is very helpful
                         for elderly persons.They arrange doctors, Nurse,
                         physiotherapist and lab assistant to take sample for
@@ -127,7 +127,7 @@ function MbTestimonial() {
                         />
                       </div>
 
-                      <p className="px-5 font-semibold text-center font-Poppins opacity-80 semi-bold md:text-xl">
+                      <p className="px-5 text-center btn-sub-para">
                         Athulya has homecare special for elderly peoples one the
                         most trusted homecare their services were very
                         professional i strongly recommend Athulya services as i

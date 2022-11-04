@@ -85,7 +85,7 @@ function XlForm() {
   };
 
   return (
-    <div className="bg-zinc-400 ">
+    <div className="bg-zinc-200">
       {/* 2xl Large devices */}
       <div className="container mx-auto">
         {loadingInProgress ? (
@@ -156,7 +156,7 @@ function XlForm() {
                     onChange={(e) => setTextarea(e.target.value)}
                     placeholder="Enter Your Message"
                     rows="1"
-                    class="form-control block w-full px-3 py-3  font-semibold text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
+                    className="block w-full px-3 py-3 m-0 font-semibold text-gray-700 transition ease-in-out bg-white border border-gray-300 border-solid rounded form-control bg-clip-padding focus:text-gray-700 focus:bg-white focus:border-pink-500 focus:outline-none "
                     name="textarea"
                   />
                   <p className="font-semibold text-pink-500">

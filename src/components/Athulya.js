@@ -10,11 +10,11 @@ function Athulya() {
 
   return (
     <div>
-      <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500 bg-gradient-to-r from-sky-800 to-pink-500 md:pt-16 md:pb-16">
+      <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500 bg-gradient-to-r from-sky-800 to-pink-500 md:pt-16 md:pb-16 rounded-xl">
         <div className="flex justify-center">
-          <div className="mt-3 text-3xl font-semibold text-white font-Poppins md:text-black ">
-            <div className="px-6 mt-4 mb-10 font-sans text-xl font-semibold md:text-3xl ">
-              <h1 className=" md:text-3xl">Why Athulya ?</h1>
+          <div className="mt-3 text-3xl text-white font-Poppins md:text-black ">
+            <div className="px-6 mt-4 mb-10 btn-heading">
+              <h1 className=" l">Why Athulya ?</h1>
             </div>
           </div>
         </div>
@@ -34,10 +34,10 @@ function Athulya() {
                       />
                     </div>
 
-                    <p className="px-5 text-2xl font-semibold capitalize font-Poppins xl:text-3xl text-sky-800">
+                    <p className="px-5 capitalize btn-sub-heading ">
                       A sense of trust
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       Competent doctors who assist and help make the best
                       health-care and lifestyle decisions possible.
                     </p>
@@ -56,10 +56,10 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p class=" font-Poppins xl:text-3xl  text-sky-800  font-semibold text-2xl px-5 capitalize">
+                    <p className=" px-5 capitalize btn-sub-heading">
                       Comprehensive Quality healthcare
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       Imparts a convenient home healthcare solution for those
                       who require constant monitoring.
                     </p>
@@ -77,10 +77,10 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p className="px-5 text-2xl font-semibold capitalize font-Poppins xl:text-3xl text-sky-800">
+                    <p className="px-5 capitalize btn-sub-heading ">
                       Expert geriatric specialists
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       Infused with the best geriatric medical care for seniors
                       in the privacy of their own home.
                     </p>
@@ -98,10 +98,10 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p className="px-5 text-2xl font-semibold capitalize font-Poppins xl:text-3xl text-sky-800">
+                    <p className="px-5 capitalize btn-sub-heading ">
                       Accessible and affordable at your convenience.
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       Various forms of health care interactions that are more
                       affordable and accessible.
                     </p>
@@ -119,10 +119,10 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p className="px-5 text-2xl font-semibold capitalize font-Poppins xl:text-3xl text-sky-800">
+                    <p className="px-5 capitalize btn-sub-heading ">
                       Emotional support for the elder & their family
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       Providing elders with the most comprehensive and
                       evaluative solutions.
                     </p>
@@ -140,10 +140,10 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p className="px-5 text-2xl font-semibold capitalize font-Poppins xl:text-3xl text-sky-800">
+                    <p className="px-5 capitalize btn-sub-heading">
                       Personalized approach in medical care
                     </p>
-                    <p className="px-10 font-semibold font-Poppins opacity-80">
+                    <p className="px-10 text-center btn-sub-para">
                       High-quality individual personal care with a comprehensive
                       and holistic approach.
                     </p>

@@ -9,47 +9,52 @@ function AboutAthulya() {
   }, []);
 
   return (
-    <div className=" bg-sky-800 md:pt-16 md:pb-16">
+    <div className=" bg-sky-800 rounded-2xl md:pt-16 md:pb-16">
       <div className="container m-auto ">
         <div className="text-justify ">
-          <div className="flex justify-center mt-3 text-3xl font-semibold font-Poppins"></div>
-          <div className="flex justify-center mb-10 text-xl font-semibold ">
-            <h1 className="pt-5 text-center text-white md:text-2xl">
-              Best Home Visit Doctors In Kochi
+          <div className="flex justify-center mt-3 font-semibold "></div>
+          <div className="flex justify-center mb-10 font-semibold ">
+            <h1 className="pt-5 text-center text-white btn-heading">
+              Doctor home visit in your Comfort and Privacy
             </h1>
           </div>
         </div>
         <div
           data-aos="fade-up"
-          className="grid-cols-2 gap-12 pb-10 space-y-3 md:grid-cols-2 lg:grid md:space-y-3 lg:space-y-0 xl:space-y-0 2xl:space-y-0"
+          className="grid gap-5 pb-10 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3"
         >
-          <div
-          
-            className="grid p-5 space-x-6 shadow-xl rounded-xl group bg-zinc-100 hover:shadow-2xl lg:place-content-center 2xl:h-5/6"
-          >
-            <div className="grid font-semibold text-justify md:text-xl font-Poppins opacity-80 ">
-              Elders frequently have one or more physical limitations that need
-              them to rely on others for transportation. Often it remains to be
-              a hindrance to attend their medical appointments on time. To be a
-              solution provider, Athulya Home Healthcare brings the desired
-              geriatric care with expert doctors for your senior’s medical
-              consultation at the comfort of your home. Athulya Home healthcare
-              offers the doctor on call service in Kochi, with a wide range
-              of doctor home consultation services. Seniors can see doctors from
-              the comfort of their own home, for everything from a routine
-              medical check-up to treatment for chronic medical disorder
-              consultation at the comfort of your home.
+          <div className="grid p-5 space-x-6 shadow-xl md:mt-20 lg:mt-0 xl:mt-20 rounded-xl group bg-zinc-100 hover:shadow-2xl 2xl:h-5/6">
+            <div className="grid btn-sub-para">
+              We understand that not everyone is able to go to the doctor's
+              office when they have a medical issue that needs to be addressed.
+              Who wants to sit in an upsetting head of state for hours on end
+              sitting tight for the doctor to see them? If there are countless
+              patient movables in one day, the time you're destined to see the
+              doctor may also pass you by. It's boring, tedious, and takes time
+              away from your normal regimen.We don't just do "doctor visits" at
+              your house! We consider and care for you till you cure properly.
             </div>
           </div>
-          <div
-           
-            className="p-3 space-x-6 shadow-xl rounded-xl group bg-zinc-100 hover:shadow-2xl 2xl:h-5/6 "
-          >
-            <img
-              className="object-cover w-full h-full rounded-xl "
-              src="https://athulyahomecare.com/lp/images/banner2.png "
-              alt="care"
-            />
+          <div>
+            <div className="p-1 mt-0 space-x-6 shadow-xl md:mt-10 rounded-xl group bg-zinc-100 hover:shadow-2xl h-5/6">
+              <img
+                className="object-cover w-full h-full rounded-xl "
+                src="https://athulyahomecare.com/lp/images/banner2.png "
+                alt="care"
+              />
+            </div>
+          </div>
+          <div className="grid p-5 space-x-6 shadow-xl rounded-xl group bg-zinc-100 hover:shadow-2xl 2xl:h-5/6">
+            <div className="grid btn-sub-para">
+              What if, on the other hand, the doctor might come to you? Isn't
+              that pleasant? You've come to the right place! Instead, the doctor
+              will come to you! Our stated purpose and service are to provide
+              emergency medical care to our patients in the comfort and privacy
+              of their personal rooms. We have highly trained Health
+              Professionals and Physicians on call 24 hours a day, 365 days a
+              year. They are always available to help you manage your medical
+              condition, answer your questions, and diagnose you.
+            </div>
           </div>
         </div>
       </div>

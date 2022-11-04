@@ -85,7 +85,7 @@ function MdEnquiry() {
   };
 
   return (
-    <div className="bg-zinc-400">
+    <div className="bg-zinc-200">
       {/* Md devices */}
       <div className="container hidden mx-auto 2xl:hidden md:block xl:hidden ">
         {loadingInProgress ? (
