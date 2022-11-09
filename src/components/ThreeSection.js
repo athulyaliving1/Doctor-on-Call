@@ -229,7 +229,7 @@ function ThreeSection() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h1 className="btn-sub-heading ">
-                      Around-the-clock medical attention
+                      Round-the-clock medical attention
                     </h1>
                     <p class="leading-relaxed btn-sub-para">
                       Athulya's specialists from diverse clinical creeks make

@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import Navbar from "./components/Navbar.js";
@@ -15,6 +15,8 @@ import Thankpage from "./components/Thankpage.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// import HeaderT from "./components/HeaderT.js";
+
 
 
 
@@ -28,6 +30,7 @@ function App() {
   return (
     <>
       <HashRouter>
+
         <Navbar />
         <MbNav />
 

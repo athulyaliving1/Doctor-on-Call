@@ -5,10 +5,10 @@ import "react-whatsapp-chat-widget/index.css";
 
 function BannerTemp() {
   return (
-    <div>
+    <div className="shadow-2xl bg-zinc-200">
       <img
-        className="hidden object-cover w-full h-auto md:pt-14 md:block"
-        src="https://athulyahomecare.com/lp/images/bannerk.jpg"
+        className="hidden object-cover w-full h-auto md:pt-14 md:block "
+        src="https://athulyahomecare.com/lp/images/bannerk.webp"
         alt="banner"
       ></img>
       <div className="absolute">

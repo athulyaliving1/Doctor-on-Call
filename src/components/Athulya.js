@@ -10,7 +10,13 @@ function Athulya() {
 
   return (
     <div>
-      <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500 bg-gradient-to-r from-sky-800 to-pink-500 md:pt-16 md:pb-16 rounded-xl">
+      {/* <div className=" md:bg-gradient-to-r md:from-sky-800 md:via-zinc-400 md:to-pink-500 bg-gradient-to-r from-sky-800 to-pink-500 md:pt-16 md:pb-16 rounded-xl"> */}
+      <div
+        class="
+		md:bg-[url('https://athulyahomecare.com/lp/images/Doc-on-call-kochi-abstract.webp')]  h-full w-full bg-cover bg-no-repeat rounded-xl  "
+      >
+
+
         <div className="flex justify-center">
           <div className="mt-3 text-3xl text-white font-Poppins md:text-black ">
             <div className="px-6 mt-4 mb-10 btn-heading">
@@ -23,7 +29,7 @@ function Athulya() {
             data-aos="fade-up"
             className="grid gap-12 pb-10 md:grid-cols-2 lg:grid-cols-3"
           >
-            <div className="p-1 space-x-6 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:shadow-2xl md:hover:scale-110 md:transition md:duration-700 md:hover:rotate-6">
+            <div className="p-1 space-x-6 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:shadow-2xl md:hover:scale-110 md:transition md:duration-700 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">
@@ -46,7 +52,7 @@ function Athulya() {
               </div>
             </div>
 
-            <div className="p-1 space-x-6 transition duration-700 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
+            <div className="p-1 space-x-6 transition duration-700 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">
@@ -56,7 +62,7 @@ function Athulya() {
                         alt="icon"
                       />
                     </div>
-                    <p className=" px-5 capitalize btn-sub-heading">
+                    <p className="px-5 capitalize btn-sub-heading">
                       Comprehensive Quality healthcare
                     </p>
                     <p className="px-10 text-center btn-sub-para">
@@ -67,7 +73,7 @@ function Athulya() {
                 </div>
               </div>
             </div>
-            <div className="p-1 space-x-6 transition duration-700 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
+            <div className="p-1 space-x-6 transition duration-700 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">
@@ -88,7 +94,7 @@ function Athulya() {
                 </div>
               </div>
             </div>
-            <div className="p-1 space-x-6 transition duration-700 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
+            <div className="p-1 space-x-6 transition duration-700 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">
@@ -109,7 +115,7 @@ function Athulya() {
                 </div>
               </div>
             </div>
-            <div className="p-1 space-x-6 transition duration-700 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
+            <div className="p-1 space-x-6 transition duration-700 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">
@@ -130,7 +136,7 @@ function Athulya() {
                 </div>
               </div>
             </div>
-            <div className="p-1 space-x-6 transition duration-700 shadow-xl rounded-xl group sm:flex bg-zinc-100 hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
+            <div className="p-1 space-x-6 transition duration-700 bg-white shadow-xl rounded-xl group sm:flex hover:rounded-2xl hover:scale-110 md:hover:rotate-6">
               <div className="py-10 text-center justify-items-center">
                 <div className="space-y-2">
                   <div className="space-y-4">

@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@hookform/resolvers": "^2.9.8",
+    "@mui/material": "^5.10.13",
     "@tailwindcss/forms": "^0.5.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -16,6 +19,7 @@
     "cloudinary-react": "^1.8.1",
     "emailjs": "^4.0.0",
     "formik": "^2.2.9",
+    "framer-motion": "^7.6.4",
     "pure-react-carousel": "^1.29.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

@@ -97,7 +97,7 @@ function MbBanner() {
             alt="smpic"
           /> */}
           <img
-            src="https://athulyahomecare.com/lp/images/sm-bannerk.jpg"
+            src="https://athulyahomecare.com/lp/images/sm-bannerk.webp"
             alt="mbbanner"
           />
         </div>

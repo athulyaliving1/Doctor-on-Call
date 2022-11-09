@@ -27,8 +27,7 @@ function AboutAthulya() {
             <div className="grid btn-sub-para">
               We understand that not everyone is able to go to the doctor's
               office when they have a medical issue that needs to be addressed.
-              Who wants to sit in an upsetting head of state for hours on end
-              sitting tight for the doctor to see them? If there are countless
+              Who wants to wait in a tense state for hours to consult the doctor? If there are countless
               patient movables in one day, the time you're destined to see the
               doctor may also pass you by. It's boring, tedious, and takes time
               away from your normal regimen.We don't just do "doctor visits" at
@@ -39,7 +38,7 @@ function AboutAthulya() {
             <div className="p-1 mt-0 space-x-6 shadow-xl md:mt-10 rounded-xl group bg-zinc-100 hover:shadow-2xl h-5/6">
               <img
                 className="object-cover w-full h-full rounded-xl "
-                src="https://athulyahomecare.com/lp/images/banner2.png "
+                src="https://athulyahomecare.com/images/Doctor-at-home-kochi.jpg "
                 alt="care"
               />
             </div>

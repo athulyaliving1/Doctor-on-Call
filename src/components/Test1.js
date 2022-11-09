@@ -26,7 +26,7 @@ function Test1() {
               <div className="mx-4 -mt-6 ">
                 <img
                   className="w-full rounded-lg "
-                  src="https://athulyahomecare.com/lp/images/1-01.jpg"
+                  src="https://athulyahomecare.com/lp/images/1-01.webp"
                   alt="tailwind-card"
                 />
               </div>
@@ -58,7 +58,7 @@ function Test1() {
               <div className="mx-4 -mt-6 ">
                 <img
                   className="w-full rounded-lg "
-                  src="https://athulyahomecare.com/lp/images/1-06.jpg"
+                  src="https://athulyahomecare.com/lp/images/1-06.webp"
                   alt="tailwind-card"
                 />
               </div>
@@ -90,7 +90,7 @@ function Test1() {
               <div className="mx-4 -mt-6 ">
                 <img
                   className="w-full rounded-lg "
-                  src="https://athulyahomecare.com/lp/images/1-05.jpg"
+                  src="https://athulyahomecare.com/lp/images/1-05.webp"
                   alt="tailwind-card"
                 />
               </div>
@@ -106,7 +106,7 @@ function Test1() {
               <div className="mx-4 -mt-6 ">
                 <img
                   className="w-full rounded-lg "
-                  src="https://athulyahomecare.com/lp/images/1-02.jpg"
+                  src="https://athulyahomecare.com/lp/images/1-02.webp"
                   alt="tailwind-card"
                 />
               </div>
@@ -122,7 +122,7 @@ function Test1() {
               <div className="mx-4 -mt-6 ">
                 <img
                   className="w-full rounded-lg "
-                  src="https://athulyahomecare.com/lp/images/1-04.jpg"
+                  src="https://athulyahomecare.com/lp/images/1-04.webp"
                   alt="tailwind-card"
                 />
               </div>
