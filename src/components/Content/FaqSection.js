@@ -7,9 +7,9 @@ function FaqSection() {
         <div className="container py-8 mx-auto ">
           <div className="grid gap-6 md:grid-cols-2 place-content-between">
             <div className="grid place-content-center">
-              <h1 className="btn-sub-heading">
+              <h2 className="btn-sub-heading">
                 Want to schedule a home visit from a doctor?
-              </h1>
+              </h2>
               <p className="mt-10 btn-sub-para ">
                 We offer you a selection of on-call physicians who have all
                 undergone thorough screening and background checks. Get a
@@ -18,9 +18,9 @@ function FaqSection() {
               </p>
             </div>
             <div>
-              <h1 className="btn-sub-heading">
+              <h2 className="btn-sub-heading">
                 Contact Athulya For An Home Visit Doctors In Chennai
-              </h1>
+              </h2>
               <p className="mt-10 btn-sub-para ">
                 Athulya provides you with the best private doctors near me home
                 visit, with the most skilled and knowledgeable medical

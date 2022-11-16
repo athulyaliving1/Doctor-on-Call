@@ -6,9 +6,9 @@ function ThreeSection() {
       <div class="container  py-12 mx-auto ">
         <div className="grid content-center mb-12">
           <div>
-            <h1 className="text-center btn-heading">
+            <h2 className="text-center btn-heading">
               Why use a doctor visit at home?
-            </h1>
+            </h2>
           </div>
         </div>
         <div class="grid md:grid-cols-2 w-full place-items-center ">
@@ -118,9 +118,9 @@ function ThreeSection() {
       <div class="container  py-12 mx-auto ">
         <div className="grid content-center mb-12">
           <div>
-            <h1 className="text-center btn-heading">
+            <h2 className="text-center btn-heading">
               Who can benefit from the doctor visit at home?
-            </h1>
+            </h2>
           </div>
         </div>
         <div class="grid md:grid-cols-2 w-full place-items-center  gap-5">

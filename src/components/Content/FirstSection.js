@@ -5,7 +5,7 @@ function FirstSection() {
     <div className="bg-zinc-100">
       <div className="container py-16 mx-auto lg:py-5">
         <div className="mt-5">
-          <h1 className="pb-8 btn-heading">What is doctor-on-call service?</h1>
+          <h2 className="pb-8 btn-heading">What is doctor-on-call service?</h2>
           <p className="text-justify btn-sub-para">
             For general health examinations, seasonal fever, acute illnesses,
             chronic illnesses, and other causes, you'll almost likely need to
@@ -26,9 +26,9 @@ function FirstSection() {
           <div className="grid lg:gap-2 ">
             <div className="rounded lg:transition lg:duration-300 ">
               <div className="flex items-center mb-1">
-                <p className="text-left btn-heading text-sky-800">
+                <h1 className="text-left btn-heading text-sky-800">
                   Home visit doctors in Chennai
-                </p>
+                </h1>
               </div>
               <p className="text-justify btn-sub-para">
                 For those who find it difficult to visit the doctor's office,
@@ -62,9 +62,9 @@ function FirstSection() {
           </div>
         </div>
         <div className="mt-10 ">
-          <h1 className="pb-10 btn-heading">
+          <h2 className="pb-10 btn-heading">
             A Brief Overview of home visit doctors in chennai
-          </h1>
+          </h2>
           <p className="btn-sub-para">
             In Chennai, Athulya Home Healthcare provides a doctor-on-call
             service. Seniors can see doctors for everything from routine

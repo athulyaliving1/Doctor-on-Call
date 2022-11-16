@@ -16,7 +16,7 @@ function TestimonalNew() {
         <div className="flex justify-center">
           <div className="mt-3 ">
             <div className="mt-10 mb-10 btn-sub-heading">
-              <h1 className="">Client FeedBack</h1>
+              <h2 className="">Client FeedBack</h2>
             </div>
           </div>
         </div>

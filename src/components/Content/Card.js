@@ -6,9 +6,9 @@ function Card() {
       <section>
         <div className="bg-sky-800">
           <div className="flex justify-center p-10 mt-3 text-xl font-semibold">
-            <h1 className="text-white btn-heading">
+            <h2 className="text-white btn-heading">
               Athulya - The Best Home Visit Doctors In Chennai
-            </h1>
+            </h2>
           </div>
 
           <div className="container pb-10 mx-auto">
@@ -50,7 +50,7 @@ function Card() {
           <div className="flex justify-center">
             <div className="">
               <div className="btn-heading">
-                <h1 className="">Our Doctor Visits At Home</h1>
+                <h2 className="">Our Doctor Visits At Home</h2>
               </div>
             </div>
           </div>
