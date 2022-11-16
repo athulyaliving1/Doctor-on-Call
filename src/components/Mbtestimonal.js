@@ -17,7 +17,7 @@ function MbTestimonial() {
         <div className="flex justify-center">
           <div className="mt-3 text-3xl font-semibold font-Poppins text-sky-800 ">
             <div className="btn-sub-heading">
-              <h1 className="">Client FeedBack</h1>
+              <h2 className="">Client FeedBack</h2>
             </div>
           </div>
         </div>
@@ -40,17 +40,23 @@ function MbTestimonial() {
                         <img
                           class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full "
                           alt="Testimonial avatar"
-                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                          src="https://www.athulyaliving.com/images/Avatar-min.webp"
                         />
                       </div>
 
                       <p class="btn-sub-para   ">
-                        I called Athulya Homecare late Sunday night for help for my father. There was a quick response, and an appointment was scheduled for the next morning. I was trying to pay for the service and due some problem it was taking time. Shiny, who scheduled the appointment said: "not to worry, we will see the patient first, payment can come later". Care Managers are very kind. Dr. Janakan came on scheduled time and gave a diagnosis and treatment. I highly appreciate the professional and caring approach of the entire team- from the first response, to visit scheduling, to the doctor's visit. If I could give 6 stars, I would.
+                        Took nursing care services from Athulya Home Health care
+                        for my friend, Who met with a road accident. They
+                        provided an excellent service with regular doctor visit
+                        and Physio visit which intend my friend to recover back.
+                        Their staff is cooperative and support enough, Good
+                        coordination among the staffs. Overall happy and
+                        satisfied
                       </p>
 
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                          - Mr. Sreeni V
+                          - Mr. Harry
                         </p>
                       </div>
                     </div>
@@ -63,23 +69,27 @@ function MbTestimonial() {
                         <img
                           class="object-cover w-20 h-20 border-2 border-sky-900 rounded-full"
                           alt="Testimonial avatar"
-                          src="https://athulyahomecare.com/lp/images/Avatar.jpg"
+                          src="https://www.athulyaliving.com/images/Avatar-min.webp"
                         />
                       </div>
 
                       <p class="btn-sub-para  ">
-                        It was really a memorable experience from Athulya home care. One of my friend told me that this home care and elderly persons really feel comfortable with the doctors and the care given by the staffs.Based on that I went for doctor visit and with utmost care they delivered the same to my family. Thanks for the caring staffs...,keep it up.
+                        Athulya Home Care is really a god sent opportunity when
+                        it comes to senior geriatric care at home for self or
+                        for your loved ones. I have been using their services (
+                        Doctor visits, nursing care) for my mother for the past
+                        5 years. I have been happy all along with regard to the
+                        care they extended.
                       </p>
 
                       <div class="flex justify-end mt-4">
                         <p class="text-right text-sky-800 font-Roboto md:text-xl px-10 font-semibold ">
-                          - Mr. Dscon Renuga S
+                          - Mr. B Senthil Kumar
                         </p>
                       </div>
                     </div>
                   </div>
                 </Slide>
-
               </Slider>
               <div className="flex items-center mt-8">
                 <ButtonBack

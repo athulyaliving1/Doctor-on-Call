@@ -92,7 +92,7 @@ function MbBanner() {
       <div className="block md:grid-cols-2 md:hidden">
         <div className="block md:hidden ss:pt-14 sl:pt-16 ">
           <img
-            src="https://athulyahomecare.com/lp/images/sm-banner-coimbatore.jpg"
+            src="https://www.athulyaliving.com/images/m-banner-bangalore.webp"
             alt="smpic"
           />
           {/* <img src={mbbanner} alt="mbbanner" /> */}
@@ -106,9 +106,9 @@ function MbBanner() {
             </div>
           ) : (
             <div className="mt-5 mb-5 text-justify ">
-              <h1 className="flex justify-center p-2 text-xl font-semibold xl:text-3xl font-Ubuntu md:text-white text-sky-800 md:p-5 ">
+              <h2 className="flex justify-center p-2 text-xl font-semibold xl:text-3xl font-Ubuntu md:text-white text-sky-800 md:p-5 ">
                 Submit Your Details
-              </h1>
+              </h2>
               <div>
                 {
                   <div className="p-5">

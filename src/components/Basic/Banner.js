@@ -10,7 +10,7 @@ function Banner() {
       <div>
         <img
           className="hidden w-full h-full pt-10 bg-cover md:block md:pt-16 lg:pt-20 "
-          src="https://athulyahomecare.com/lp/images/banner-coim.jpg"
+          src="https://www.athulyaliving.com/images/bangalore-banner-min.webp"
           alt="banner "
         />
       </div>

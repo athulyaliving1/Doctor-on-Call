@@ -37,7 +37,7 @@ function NavbarXl() {
                 <li className="hidden md:flex">
                   <a
                     className="flex"
-                    href="mailto:response@athulyahomecare.com"
+                    href="mailto:enquiryblr@athulyahomecare.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -52,7 +52,7 @@ function NavbarXl() {
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                       </svg>
                     </span>
-                    response@athulyahomecare.com
+                    enquiryblr@athulyahomecare.com
                   </a>
                 </li>
               </ul>

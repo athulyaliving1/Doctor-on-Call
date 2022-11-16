@@ -6,7 +6,7 @@ function Footer() {
       <div class="py-2 text-xs md:text-sm font-Helvetica  ">
         <div class="w-full border-t-2 border-white"></div>
       </div>
-      <div className="container   p-4 mx-auto md:p-5 lg:flex-row divide-gray-400 ">
+      <div className="container p-4 mx-auto divide-gray-400 md:p-5 lg:flex-row ">
         <div className="flex flex-col justify-center pt-6 lg:pt-0">
           <div className="flex justify-center space-x-4">
             <a
@@ -14,7 +14,7 @@ function Footer() {
               rel="noreferrer"
               href="https://www.facebook.com/Athulyahomecare"
               title="Facebook"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function Footer() {
               rel="noreferrer"
               href="https://www.youtube.com/c/AthulyaHomecare"
               title="YouTube"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <ion-icon name="logo-youtube"></ion-icon>
             </a>
@@ -39,7 +39,7 @@ function Footer() {
               rel="noreferrer"
               href="https://www.instagram.com/athulyahomehealthcare/"
               title="Instagram"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ function Footer() {
               rel="noreferrer"
               href="https://in.pinterest.com/Athulyahomecare/"
               title="Pinterest"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ function Footer() {
               rel="noreferrer"
               href="https://twitter.com/AthulyaHomecare"
               title="Twitter"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,16 +88,16 @@ function Footer() {
               rel="noreferrer"
               href="https://www.linkedin.com/company/athulyahomecare"
               title=""
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-pink-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white bg-pink-500 rounded-full sm:w-10 sm:h-10"
             >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </div>
-          <div className="self-center  py-2 space-y-2 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
+          <div className="self-center py-2 space-y-2 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
             <ul className="">
               <p> Copyright © {new Date().getFullYear()}</p>
               <p>
-                <span className="text-pink-500 text-justify">
+                <span className="text-justify text-pink-500">
                   <span> </span>Athulya Senior care.
                 </span>
                 <span> </span> All rights reserved.

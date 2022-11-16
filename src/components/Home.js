@@ -4,7 +4,7 @@ import Card from "./Content/Card";
 import MbBanner from "./Basic/MbBanner";
 import MdForm from "./Basic/MdForm";
 import XlForm from "./Basic/XlForm";
-// import FaqSection from "./Content/FaqSection";
+import FaqSection from "./Content/FaqSection";
 import FirstSection from "./Content/FirstSection";
 // import FourSection from "./Content/FourSection";
 import ThreeSection from "./Content/ThreeSection";
@@ -21,7 +21,7 @@ function Home() {
       <FirstSection />
       <Card />
       <ThreeSection />
-
+      <FaqSection />
       <TestimonalNew />
       <MbTestimonial />
     </div>

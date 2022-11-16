@@ -4,43 +4,101 @@ function Card() {
   return (
     <div>
       <section>
-        <div className="bg-sky-800">
-          <div className="flex justify-center p-10 mt-3 text-xl font-semibold">
-            <h1 className="text-white btn-heading">
-              Why Doctor at Home Service from Athulya?
-            </h1>
-          </div>
-
-          <div className="container pb-10 mx-auto">
-            <div className="grid w-full gap-5 md:grid-cols-2 place-items-center">
-              <div>
-                <div className="p-5 bg-white rounded-xl">
-                  <p className="text-justify btn-sub-para">
-                    A completely competent multidisciplinary team is utilized at
-                    Athulya to provide comprehensive medical care. Athulya goes
-                    the extra mile to ensure that their treatment is a holistic
-                    experience for the elderly despite the abundance and variety
-                    of home health care options available on the market. The
-                    medical staff at Athulya makes sure that every element of
-                    the elderly people is assessed and their care is tailored
-                    accordingly. Seniors require moral and emotional assistance
-                    in addition to medical care in order to be encouraged to
-                    heal more quickly. Athulya acts as a tower of strength and
-                    fosters the trust that the elderly need. This helps the
-                    elders build stronger bonds with the house visit doctors and
-                    enables them to experience better medical outcomes.
-                  </p>
+        {/* <div className=" bg-sky-800 rounded-2xl md:pt-16 md:pb-16">
+          <div className="container m-auto ">
+            <div className="text-justify ">
+              <div className="flex justify-center mt-3 font-semibold "></div>
+              <div className="flex justify-center mb-10 font-semibold ">
+                <h1 className="pt-5 text-center text-white btn-heading">
+                  Doctor home visit in your Comfort and Privacy
+                </h1>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="grid gap-5 pb-10 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3"
+            >
+              <div className="grid p-5 space-x-6 shadow-xl md:mt-20 lg:mt-0 xl:mt-20 rounded-xl group bg-zinc-100 hover:shadow-2xl 2xl:h-5/6">
+                <h2 className="text-center btn-sub-heading">
+                  World class doctors Doctor-on-call in Bangalore
+                </h2>
+                <div className="grid btn-sub-para">
+                  We understand that not everyone is able to go to the doctor's
+                  office when they have a medical issue that needs to be
+                  addressed. Who wants to wait in a tense state for hours to
+                  consult the doctor? If there are countless patient movables in
+                  one day, the time you're destined to see the doctor may also
+                  pass you by. It's boring, tedious, and takes time away from
+                  your normal regimen.We don't just do "doctor visits" at your
+                  house! We consider and care for you till you cure properly.
                 </div>
               </div>
               <div>
-                <div className="grid content-center gap-5 mb-5">
+                <div className="p-1 mt-0 space-x-6 shadow-xl md:mt-10 rounded-xl group bg-zinc-100 hover:shadow-2xl h-5/6">
                   <img
-                    className="p-2 bg-white rounded-xl"
-                    src="https://athulyahomecare.com/lp/images/banner2.png"
+                    className="object-cover w-full h-full rounded-xl "
+                    src="https://athulyahomecare.com/images/Doctor-at-home-kochi.jpg "
                     alt="care"
                   />
                 </div>
               </div>
+              <div className="grid p-5 space-x-6 shadow-xl rounded-xl group bg-zinc-100 hover:shadow-2xl 2xl:h-5/6">
+                <h2 className="text-center btn-sub-heading">
+                  Doctor Tele-consultations - Aiding more comfortability
+                </h2>
+                <div className="grid btn-sub-para">
+                  What if, on the other hand, the doctor might come to you?
+                  Isn't that pleasant? You've come to the right place! Instead,
+                  the doctor will come to you! Our stated purpose and service
+                  are to provide emergency medical care to our patients in the
+                  comfort and privacy of their personal rooms. We have highly
+                  trained Health Professionals and Physicians on call 24 hours a
+                  day, 365 days a year. They are always available to help you
+                  manage your medical condition, answer your questions, and
+                  diagnose you.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="container py-8 mx-auto ">
+          <div className="grid gap-6 md:grid-cols-1 place-content-between">
+            <div className="grid place-content-center">
+              <h2 className="btn-sub-heading">
+                World class Doctor-on-call in Bangalore
+              </h2>
+              <p className="mt-5 text-justify btn-sub-para">
+                Most of the people in Bangalore are busy working professionals
+                and there is a need for them to take care of their elders. But
+                the major problem here is the time taken in the hospitals
+                waiting for appointments can be tiring and boring for both the
+                elders and the individual care taker. So receiving a doctor
+                consultations at home can be the best option for them. Doctors
+                from Athulya provide the best geriatric care possible for elders
+                at home. Athulya’s doctors are fully qualified and have
+                extensive knowledge on treating geriatric patients at the
+                comfort of elder’s home. Also the medical professionals at
+                Athulya treat elders with compassion and utmost respect. This
+                enhances the comfort for elders and helps them open up about
+                their health conditions with the doctors.
+              </p>
+            </div>
+            <div>
+              <h2 className="btn-sub-heading">
+                Doctor Tele-consultations - Aiding more comfortability
+              </h2>
+              <p className="mt-5 text-justify btn-sub-para ">
+                Doctor tele-consultation is also one important option for elders
+                to get treated at the comfort of home even at emergency hours.
+                This avoids major mishaps from happening. Exactly like doctor
+                visits at home services, doctor tele-consultations also
+                leverages few benefits for seniors. Even though the elder and
+                the doctor is separated by a distance, the connectivity and
+                predictive intelligence that Athulya’s doctors have, helps them
+                find out the health issue with the elders easily and help them
+                exactly like the help they provide in the home consultation
+                doctor services.
+              </p>
             </div>
           </div>
         </div>
@@ -51,7 +109,7 @@ function Card() {
           <div className="flex justify-center">
             <div className="">
               <div className="btn-heading">
-                <h1 className="">Our Doctor Visits At Home</h1>
+                <h2 className="">Our Doctor Visits At Home</h2>
               </div>
             </div>
           </div>
