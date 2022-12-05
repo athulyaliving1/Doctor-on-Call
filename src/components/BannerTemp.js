@@ -7,7 +7,7 @@ function BannerTemp() {
   return (
     <div>
       <img
-        className="w-full h-auto md:pt-14  object-cover hidden md:block relative"
+        className="relative hidden object-cover w-full h-auto md:pt-14 md:block"
         src="https://athulyahomecare.com/lp/images/banner-coim.jpg"
         alt="banner"
       ></img>
@@ -17,7 +17,7 @@ function BannerTemp() {
           position="left"
           widgetWidth="300px"
           widgetWidthMobile="280px"
-          autoOpen={true}
+          autoOpen={false}
           autoOpenTimer={5000}
           messageBox={true}
           // messageBoxTxt="Hi Team, is there any related service available ?"
