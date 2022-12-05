@@ -8,6 +8,8 @@ import Athulya from "./components/Athulya.js";
 import Testimonial from "./components/Testimonial.js";
 import Footer from "./components/Footer.js";
 import MbNav from "./components/MbNav.js";
+import Thankpage from "./components/Thankpage.js";
+
 // import Header from "./components/Header.js";
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="athulya" element={<Athulya />} />
           <Route path="testimonal" element={<Testimonial />} />
+          <Route path="tkpage" element={<Thankpage />} />
 
           <Route
             path="*"
